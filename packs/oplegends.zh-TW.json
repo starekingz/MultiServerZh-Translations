@@ -838,5 +838,16 @@
   "Rebirth {0}\nUpon rebirthing, your rank will reset.\nBut doing so will grant you a permanent Stars Multiplier\nand a permanent Rank Currency Multiplier\nalso it'll up your rank up cap & orb multiplier per rank\nwhich will make you even more overpowered!\n\nInformation\n│ Required: {1}\n│ Max Rank: {2} → {3}\n│ Star Multiplier: {4}x → {5}x\n│ Rank Currency Multiplier: {6}x → {7}x\n\nRewards\n│ Orbs Per Block: {8}x → {9}x\n\nWARNING: Upon rebirthing your rank will reset.\n\nClick to rebirth!": "轉生 {0}\n轉生後，你的階級會重置。\n但你將永久獲得星星倍率\n與階級貨幣倍率，\n同時提升階級上限與每階級的寶珠倍率，\n讓你變得更加強大！\n\n資訊\n│ 需求：{1}\n│ 最高階級：{2} → {3}\n│ 星星倍率：{4} 倍 → {5} 倍\n│ 階級貨幣倍率：{6} 倍 → {7} 倍\n\n獎勵\n│ 每方塊寶珠倍率：{8} 倍 → {9} 倍\n\n警告：轉生後，你的階級會重置。\n\n點擊轉生！",
   "{0} You do not meet the rank requirement to rebirth. You need {1} more ranks!": "{0} 你尚未達到轉生所需的階級，還需要提升 {1} 階！",
   "{0}\nUniverses\n{1} ONLINE\n\n{10}\n ┃ Rank: ⛏{2}\n ┃ Rebirth: {3}\n ┃ Blocks Mined: {4}\n\nMINE BALANCE\n ┃ {5} Mine Stars\n ┃ {6} Dollars\n ┃ {7} Mine Orbs\n ┃ {8} Credits\n ┃ {9} Bits\nOPLEGENDS.COM": "{0}\n多重宇宙\n{1} 人在線\n\n{10}\n ┃ 階級：⛏{2}\n ┃ 轉生：{3}\n ┃ 挖掘方塊數：{4}\n\n礦場餘額\n ┃ {5} 礦場星星\n ┃ {6} 金錢\n ┃ {7} 礦場寶珠\n ┃ {8} 點數\n ┃ {9} Bits\nOPLEGENDS.COM",
-  " ┃ {0} Dollars": " ┃ {0} 金錢"
+  " ┃ {0} Dollars": " ┃ {0} 金錢",
+  "Star Boost Tool Modifier\nApplies a passive star {0}\n\n                         \nMultiplier:\n Stars\nFactor:\n {1}x\nApply Chance:\n {2}\n                         \n\nRight-click in your hand\nto add your current tool!\n\n裝備時：\n{3} 盔甲\n{4} 盔甲強度": "星星加成工具改造\n提供被動星星 {0}\n\n                         \n加成類型：\n 星星\n倍率：\n {1} 倍\n套用機率：\n {2}\n                         \n\n手持此物品按右鍵，\n套用至目前的工具！\n\n裝備時：\n{3} 盔甲\n{4} 盔甲強度",
+  ".LEGEND.{0}xRobert{1}_ is doing a keyall!": ".LEGEND.{0}xRobert{1}_ 正在發放全服鑰匙！",
+  "{0} You just got free crate keys from a key-all event! They has been sent to your mailbox.": "{0} 你在全服鑰匙活動中獲得了免費寶箱鑰匙！已寄送至你的信箱。",
+  "xRobert{0}_ hatched a Titanic Arctic Orbs Pet!": "xRobert{0}_ 孵化了一隻泰坦極地寶珠寵物！",
+  "LUCKY BLOCK! You won (!) T{0} Modifier Box!": "幸運方塊！你獲得了 (!) T{0} 改造箱！",
+  "(!) WOW! {1} opened their Cosmic Lootbox and won Frozen Shovel and {0} other amazing rewards! [HOVER]": "(!) 哇！{1} 開啟了宇宙戰利品箱，獲得冰霜鏟及另外 {0} 項豐厚獎勵！[懸停查看]",
+  "                                                                 \n                      Daily Events\n\n        We host daily events that give you the \n      chance to obtain credits and items! Make\n       sure to hit the reaction goal in Discord!\n\n                       » {0} «\n                                                                 ": "                                                                 \n                      每日活動\n\n        我們每天舉辦活動，讓你有機會\n      獲得點數與物品！記得到 Discord\n       一起達成表情反應目標！\n\n                       » {0} «\n                                                                 ",
+  "\n                    Chat Event: Math!\n       Answer the question to win the event\n                     What is {0} * {1}?\n\n{2} Your tool has leveled up!": "\n                    聊天活動：數學！\n       回答問題即可贏得本次活動\n                     {0} × {1} 等於多少？\n\n{2} 你的工具升級了！",
+  "LUCKY BLOCK! You won (!) {0}x Mine Crate!": "幸運方塊！你獲得了 (!) {0} 個礦場寶箱！",
+  "[GG] {0} Thank you to {3} for supporting us by purchasing .LEGEND. Rank from {1}! {2}": "[GG] {0} 感謝 {3} 在 {1} 購買 .LEGEND. 階級，支持我們！{2}",
+  "{0} Your tool has leveled up!": "{0} 你的工具升級了！"
 }
