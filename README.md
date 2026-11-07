@@ -1,6 +1,6 @@
 # MultiServerZh Translations
 
-MultiServerZh 的英翻繁體中文詞庫。OPLegends 詞庫目前包含 530 條，涵蓋聊天、物品名稱、Lore、附魔與選單提示。
+MultiServerZh 的英翻繁體中文詞庫。OPLegends 詞庫目前包含 660 條，涵蓋聊天、物品名稱、Lore、附魔與選單提示。
 
 ## 手動匯入
 
@@ -33,3 +33,13 @@ https://raw.githubusercontent.com/starekingz/MultiServerZh-Translations/main/pac
 - 此倉庫不包含機器翻譯服務、不存放使用者的 missing 或機翻快取。
 
 對新 Minecraft 版本、自訂字型或其他模組的相容性，仍需遊戲內驗證。
+
+## 0.3.0 物品旁側面板與設定
+
+預設 F9 開啟設定介面，可在遊戲控制設定重新綁定。也可使用 `/mszh config`。
+
+- 預設保留英文物品提示，在旁側顯示中文翻譯。
+- Ctrl＋滾輪捲動長面板；設定頁可切換直接取代、寬度與左右位置。
+- 設定頁提供翻譯、蒐集、快取、匯出與手動 GitHub 匯入控制。
+- 新增 48 筆完整樣本及共用名稱、描述，詞庫目前 660 條。
+- 詞庫仍僅在執行匯入指令或按匯入按鈕時更新。
