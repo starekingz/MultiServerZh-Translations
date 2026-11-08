@@ -158,5 +158,9 @@
   "│ {0}M Gems": "│ {0}M 寶石",
   "│ {0}B Gems": "│ {0}B 寶石",
   "│ {0}T Gems": "│ {0}T 寶石",
-  "│ {0}E{1} Gems": "│ {0}E{1} 寶石"
+  "│ {0}E{1} Gems": "│ {0}E{1} 寶石",
+  "Event Crate\nNo Event Active\n\nRight-click to buy an event crate and\ngive the entire server a buff!": "活動寶箱\n目前沒有活動\n\n按右鍵購買活動寶箱，\n為全服玩家提供增益！",
+  "PIÑATA PARTY - {0}M / {1}M blocks (you: {2})": "皮納塔派對 - {0}M / {1}M 方塊（你：{2}）",
+  "Objective: Talk to the Prison Veteran in {0}": "目標：前往 {0} 與監獄老手交談",
+  "{0}\nPrison Neptune\n\n{9}\n│ Rank: [{1}]\n│ Rebirth: {2}✦\n\nBALANCE\n│ {3} Money\n│ {4} Orbs\n│ {5} Beacons\n│ {6} Gems\n│ {7} Bits\n│ {8} Credits\n\nOPLEGENDS.COM": "{0}\n海王星監獄\n\n{9}\n│ 階級：[{1}]\n│ 轉生：{2}✦\n\n餘額\n│ {3} 金錢\n│ {4} 寶珠\n│ {5} 信標\n│ {6} 寶石\n│ {7} Bits\n│ {8} 點數\n\nOPLEGENDS.COM"
 }
