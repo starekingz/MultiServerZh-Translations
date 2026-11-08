@@ -188,5 +188,9 @@
   "The {0} Gems Event has ended.\nThank you to everyone for participating!": "{0} 寶石活動已結束。\n感謝所有玩家參與！",
   "\nRebirth Summary\n | New Rebirth: {0}\n": "\n轉生摘要\n | 新轉生次數：{0}\n",
   "{0}\n{1} GG WAVE ACTIVATED!\n{2} {6} supported us with {3}!\n{4} Legend Plus\n{5} Congratulate them with 'gg'!\n": "{0}\n{1} GG 歡呼活動已啟動！\n{2} {6} 以 {3} 支持我們！\n{4} Legend Plus\n{5} 輸入「gg」向對方道賀！\n",
-  "You have obtained the Guardian's Blessing Tablet Artifact ({0})!\nYour Guardian's Blessing Tablet Artifact is now Ruined!": "你獲得了守護者祝福石板神器（{0}）！\n你的守護者祝福石板神器現在已損毀！"
+  "You have obtained the Guardian's Blessing Tablet Artifact ({0})!\nYour Guardian's Blessing Tablet Artifact is now Ruined!": "你獲得了守護者祝福石板神器（{0}）！\n你的守護者祝福石板神器現在已損毀！",
+  "                                                                                \n\n                   ✯✯✯ OPLegends Prison ✯✯✯\n            We're currently on week {0} of the season!\n\n                                                                                \n\n[OPLEGENDS] Welcome {3} to Prison Neptune!\n(Click here or type {1} for a free bit!)\nREBIRTH | {4} has hit rebirth {2}!": "                                                                                \n\n                   ✯✯✯ OPLegends 監獄 ✯✯✯\n            目前是本賽季的第 {0} 週！\n\n                                                                                \n\n[OPLEGENDS] 歡迎 {3} 加入海王星監獄！\n（點擊這裡或輸入 {1}，免費獲得 1 Bit！）\nREBIRTH | {4} 達成了第 {2} 次轉生！",
+  "{0} has unboxed Nickname Ticket.": "{0} 開出了暱稱變更券。",
+  "                                                  \n{0}\n              ACHIEVEMENT COMPLETED!\n               | Start Of The World\n               | {1} Points ({2})\n \n                                                  ": "                                                  \n{0}\n              成就達成！\n               | 賽季初始\n               | {1} 點成就點數（{2}）\n \n                                                  ",
+  "(!) WOW! {2} opened their SOTW Lootbox and won T{0} Pickaxe Core Box Crate and {1} other amazing rewards! [HOVER]": "(!) 哇！{2} 開啟了開季戰利品箱，獲得 T{0} 鎬子核心箱及另外 {1} 項豐厚獎勵！[懸停查看]"
 }
