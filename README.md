@@ -1,12 +1,12 @@
 # MultiServerZh Translations
 
-OPLegends 英翻繁體中文詞庫，共 1424 條。依主要顯示位置分為三份；同一段文字可能在不同畫面共用。
+OPLegends 英翻繁體中文詞庫，共 1451 條。依主要顯示位置分為三份；同一段文字可能在不同畫面共用。
 
 | 檔案 | 用途 | 條數 |
 | --- | --- | ---: |
-| [oplegends.chat.zh-TW.json](packs/oplegends.chat.zh-TW.json) | 聊天訊息、系統公告、NPC 對話 | 190 |
-| [oplegends.items.zh-TW.json](packs/oplegends.items.zh-TW.json) | 物品名稱、Lore、附魔、介面物品 | 1074 |
-| [oplegends.other.zh-TW.json](packs/oplegends.other.zh-TW.json) | 記分板、Action Bar、Boss Bar、浮空文字 | 160 |
+| [oplegends.chat.zh-TW.json](packs/oplegends.chat.zh-TW.json) | 聊天訊息、系統公告、NPC 對話 | 194 |
+| [oplegends.items.zh-TW.json](packs/oplegends.items.zh-TW.json) | 物品名稱、Lore、附魔、介面物品 | 1093 |
+| [oplegends.other.zh-TW.json](packs/oplegends.other.zh-TW.json) | 記分板、Action Bar、Boss Bar、浮空文字 | 164 |
 
 ## 手動匯入
 
@@ -23,6 +23,10 @@ MultiServerZh 0.5.16 起，連線到目標伺服器後執行：
 ## 物品翻譯
 
 完整匹配保留整卡譯文，行與行不再繼承標題粗體。整卡未匹配時優先使用已有逐行規則，無法拆開的描述再嘗試段落翻譯。從詞庫中衍生無歧義的名稱、描述與欄位規則；數值使用佔位符，支援等級、機率等變動。已滿級、鎖定、啟用及停用狀態可獨立匹配。缺少的英文仍保留供後續收集，不猜測新附魔效果。
+
+## 0.5.17 浮空文字
+
+支援多行 Text Display 與拆成多個盔甲座的逐行顯示，從既有譯文衍生無歧義的單行規則。匹配時忽略前後空白、特殊空格與零寬字元；未匹配內容仍收集到 missing，已知單行不再誤報缺詞。保留原始實體資料，只替換渲染文字。
 
 ## 維護
 
