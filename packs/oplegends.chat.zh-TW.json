@@ -204,5 +204,7 @@
   "Spin that record, {0} just rolled in!": "唱片轉起來！{0} 剛剛登場！",
   "\n(!) {0} is flexing their {1} Collector's Unstable Basic Global Role Style: .LEGEND.. Click here to see it!\n": "\n(!) {0} 正在展示自己的 {1} 收藏家的不穩定基礎全域角色造型：.LEGEND.。點擊此處查看！\n",
   "                                                                 \n                    Bi-Weekly Resets\n\n        We reset one of our gamemodes once\n       every two weeks! Check out our Discord\n                   for more information!\n\n                » discord.gg/oplegends «\n                                                                 ": "                                                                 \n                    每兩週重置\n\n        我們每隔兩週會重置其中一個\n       遊戲模式！詳情請前往 Discord\n                   查看最新消息！\n\n                » discord.gg/oplegends «\n                                                                 ",
-  "{0}'s Registered Hat has leveled up to Ascendant Collector's Unstable Salvaged Basic Wired November {1} Boombox": "{0} 的登記帽子已升級為昇華收藏家的不穩定回收基礎有線 11 月 {1} 音響"
+  "{0}'s Registered Hat has leveled up to Ascendant Collector's Unstable Salvaged Basic Wired November {1} Boombox": "{0} 的登記帽子已升級為昇華收藏家的不穩定回收基礎有線 11 月 {1} 音響",
+  "{0} That is not a player who has connected to this network!": "{0} 該玩家從未連線至此伺服器網路！",
+  "{0} Setting updated.": "{0} 設定已更新。"
 }
