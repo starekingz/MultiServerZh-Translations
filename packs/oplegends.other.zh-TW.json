@@ -162,5 +162,20 @@
   "Event Crate\nNo Event Active\n\nRight-click to buy an event crate and\ngive the entire server a buff!": "活動寶箱\n目前沒有活動\n\n按右鍵購買活動寶箱，\n為全服玩家提供增益！",
   "PIÑATA PARTY - {0}M / {1}M blocks (you: {2})": "皮納塔派對 - {0}M / {1}M 方塊（你：{2}）",
   "Objective: Talk to the Prison Veteran in {0}": "目標：前往 {0} 與監獄老手交談",
-  "{0}\nPrison Neptune\n\n{9}\n│ Rank: [{1}]\n│ Rebirth: {2}✦\n\nBALANCE\n│ {3} Money\n│ {4} Orbs\n│ {5} Beacons\n│ {6} Gems\n│ {7} Bits\n│ {8} Credits\n\nOPLEGENDS.COM": "{0}\n海王星監獄\n\n{9}\n│ 階級：[{1}]\n│ 轉生：{2}✦\n\n餘額\n│ {3} 金錢\n│ {4} 寶珠\n│ {5} 信標\n│ {6} 寶石\n│ {7} Bits\n│ {8} 點數\n\nOPLEGENDS.COM"
+  "{0}\nPrison Neptune\n\n{9}\n│ Rank: [{1}]\n│ Rebirth: {2}✦\n\nBALANCE\n│ {3} Money\n│ {4} Orbs\n│ {5} Beacons\n│ {6} Gems\n│ {7} Bits\n│ {8} Credits\n\nOPLEGENDS.COM": "{0}\n海王星監獄\n\n{9}\n│ 階級：[{1}]\n│ 轉生：{2}✦\n\n餘額\n│ {3} 金錢\n│ {4} 寶珠\n│ {5} 信標\n│ {6} 寶石\n│ {7} Bits\n│ {8} 點數\n\nOPLEGENDS.COM",
+  "November Case {0}": "11 月造型箱 {0}",
+  "Mine Blocks": "礦場方塊",
+  "Custom Pickaxe Case": "自訂鎬子造型箱",
+  "PIÑATA PARTY": "皮納塔派對",
+  "November Case {0}: Top {1}\n#{2}: {3}, {4} Opened\n#{5}: {6}, {7} Opened\n#{8}: {9}, {10} Opened\n#{11}: {12}, {13} Opened\n#{14}: {15}, {16} Opened\n#{17}: {18}, {19} Opened\n#{20}: {21}, {22} Opened\n#{23}: {24}, {25} Opened\n#{26}: {27}, {28} Opened\n#{29}: {30}, {31} Opened": "11 月造型箱 {0}：前 {1} 名\n#{2}：{3}，已開啟 {4} 個\n#{5}：{6}，已開啟 {7} 個\n#{8}：{9}，已開啟 {10} 個\n#{11}：{12}，已開啟 {13} 個\n#{14}：{15}，已開啟 {16} 個\n#{17}：{18}，已開啟 {19} 個\n#{20}：{21}，已開啟 {22} 個\n#{23}：{24}，已開啟 {25} 個\n#{26}：{27}，已開啟 {28} 個\n#{29}：{30}，已開啟 {31} 個",
+  "Cosmetic Cases": "外觀造型箱",
+  "Automaton": "自動機械",
+  "Prison Warden": "監獄典獄長",
+  "Prison Veteran": "監獄老手",
+  "{0} Sandy": "{0} 珊蒂",
+  "Artificer": "工匠",
+  "Prison Crates": "監獄寶箱",
+  "Event Crate\n\nActive Buff: {0} Tool Level Boost\nTime Left: {1} hour and {2} minutes": "活動寶箱\n\n目前增益：{0} 工具等級加成\n剩餘時間：{1} 小時 {2} 分鐘",
+  "Radiant Crate\nYou have {0} keys.": "輝耀寶箱\n你擁有 {0} 把鑰匙。",
+  "Lv. {0} Orb Pet": "Lv. {0} 寶珠寵物"
 }
