@@ -1,12 +1,12 @@
 # MultiServerZh Translations
 
-OPLegends 英翻繁體中文詞庫，共 1534 條。依主要顯示位置分為三份；同一段文字可能在不同畫面共用。
+OPLegends 英翻繁體中文詞庫，共 1663 條。依主要顯示位置分為三份；同一段文字可能在不同畫面共用。
 
 | 檔案 | 用途 | 條數 |
 | --- | --- | ---: |
-| [oplegends.chat.zh-TW.json](packs/oplegends.chat.zh-TW.json) | 聊天訊息、系統公告、NPC 對話 | 206 |
-| [oplegends.items.zh-TW.json](packs/oplegends.items.zh-TW.json) | 物品名稱、Lore、附魔、介面物品 | 1139 |
-| [oplegends.other.zh-TW.json](packs/oplegends.other.zh-TW.json) | 記分板、Action Bar、Boss Bar、浮空文字 | 189 |
+| [oplegends.chat.zh-TW.json](packs/oplegends.chat.zh-TW.json) | 聊天訊息、系統公告、NPC 對話 | 208 |
+| [oplegends.items.zh-TW.json](packs/oplegends.items.zh-TW.json) | 物品名稱、Lore、附魔、介面物品 | 1262 |
+| [oplegends.other.zh-TW.json](packs/oplegends.other.zh-TW.json) | 記分板、Action Bar、Boss Bar、浮空文字 | 193 |
 
 ## 手動匯入
 
@@ -55,3 +55,9 @@ MultiServerZh 0.5.16 起，連線到目標伺服器後執行：
 移除從名單列衍生的純佔位符／標點規則，例如 `{0} ({1}) → {0}（{1}）`。此規則會把未翻譯的英文指引誤當作已知文字，只改括號。衍生規則現在必須包含固定單詞；缺詞會正常收集。新增 `Walk into the Portal` 與帶距離版本的譯文，並保留距離整段的灰色、單位與非粗體樣式。一般漸層文字不會因此被阻擋翻譯。
 
 更新模組至 0.5.22，並執行 `/mszh import oplegends` 手動更新詞庫。
+
+## 2026-11-09 第三批更新
+
+完成 130 條來源紀錄：物品／介面物品 123、浮空文字 3、聊天 2、Boss Bar 2。新增任務系列、夥伴工作與升級、狩獵、通知音效與隱私設定。沿用既有附魔名稱；指令、網址、數值佔位符保持一致。兩種身分組欄位合併為動態匹配規則，重用既有轉生按鈕詞條，另補上不綁定 K/M 等數值單位的寶石價格欄位，合計新增 129 條規則。
+
+依既有規則保留浮空文字的 `Rebirth` 標題，操作提示仍翻譯。無須更換模組；執行 `/mszh import oplegends` 手動更新。
