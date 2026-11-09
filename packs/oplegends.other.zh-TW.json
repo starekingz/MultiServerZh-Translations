@@ -177,5 +177,13 @@
   "Prison Crates": "監獄寶箱",
   "Event Crate\n\nActive Buff: {0} Tool Level Boost\nTime Left: {1} hour and {2} minutes": "活動寶箱\n\n目前增益：{0} 工具等級加成\n剩餘時間：{1} 小時 {2} 分鐘",
   "Radiant Crate\nYou have {0} keys.": "輝耀寶箱\n你擁有 {0} 把鑰匙。",
-  "Lv. {0} Orb Pet": "Lv. {0} 寶珠寵物"
+  "Lv. {0} Orb Pet": "Lv. {0} 寶珠寵物",
+  "New Task: Walk through the portal": "新任務：穿過傳送門",
+  "{0}\nPrison Neptune\n\n{1}\n│ Rank: [{2}]\n│ Rebirth: {3}✦\n\nBALANCE\n│ {4} Money\n│ {5} Orbs\n│ {6} Beacons\n│ {7} Gems\n│ {8} Bit\n│ {9} Credit\n\nOPLEGENDS.COM": "{0}\n海王星監獄\n\n{1}\n│ 階級：[{2}]\n│ 轉生：{3}✦\n\n餘額\n│ {4} 金錢\n│ {5} 寶珠\n│ {6} 信標\n│ {7} 寶石\n│ {8} Bit\n│ {9} 點數\n\nOPLEGENDS.COM",
+  "Lv. {0} Beacon Pet": "Lv. {0} 信標寵物",
+  "Objective: Go through the portal or type {0}": "目標：穿過傳送門或輸入 {0}",
+  "Event Crate\n\nActive Buff: {0} Tool Level Boost\nTime Left: {1} hour and {2} minute": "活動寶箱\n\n目前增益：{0} 工具等級加成\n剩餘時間：{1} 小時 {2} 分鐘",
+  "Event Crate\n\nActive Buff: {0} Tool Level Boost\nTime Left: {1} hour": "活動寶箱\n\n目前增益：{0} 工具等級加成\n剩餘時間：{1} 小時",
+  "Lv. {0} Core Pet": "Lv. {0} 核心寵物",
+  "Lv. {0} Booster Pet": "Lv. {0} 加成寵物"
 }
