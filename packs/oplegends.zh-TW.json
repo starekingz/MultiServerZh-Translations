@@ -1530,5 +1530,7 @@
   "Event Crate\n\nActive Buff: {0} Tool Level Boost\nTime Left: {1} hour": "活動寶箱\n\n目前增益：{0} 工具等級加成\n剩餘時間：{1} 小時",
   "Lv. {0} Core Pet": "Lv. {0} 核心寵物",
   "Lv. {0} Booster Pet": "Lv. {0} 加成寵物",
-  "{0}'s Registered Hat has leveled up to Ascendant Collector's Unstable Salvaged Basic Wired November {1} Boombox": "{0} 的登記帽子已升級為昇華收藏家的不穩定回收基礎有線 11 月 {1} 音響"
+  "{0}'s Registered Hat has leveled up to Ascendant Collector's Unstable Salvaged Basic Wired November {1} Boombox": "{0} 的登記帽子已升級為昇華收藏家的不穩定回收基礎有線 11 月 {1} 音響",
+  "Walk into the Portal": "走進傳送門",
+  "Walk into the Portal ({0}m)": "走進傳送門 ({0}m)"
 }
