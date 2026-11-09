@@ -1,12 +1,12 @@
 # MultiServerZh Translations
 
-OPLegends 英翻繁體中文詞庫，共 1663 條。依主要顯示位置分為三份；同一段文字可能在不同畫面共用。
+OPLegends 英翻繁體中文詞庫，共 1797 條。依主要顯示位置分為三份；同一段文字可能在不同畫面共用。
 
 | 檔案 | 用途 | 條數 |
 | --- | --- | ---: |
-| [oplegends.chat.zh-TW.json](packs/oplegends.chat.zh-TW.json) | 聊天訊息、系統公告、NPC 對話 | 208 |
-| [oplegends.items.zh-TW.json](packs/oplegends.items.zh-TW.json) | 物品名稱、Lore、附魔、介面物品 | 1262 |
-| [oplegends.other.zh-TW.json](packs/oplegends.other.zh-TW.json) | 記分板、Action Bar、Boss Bar、浮空文字 | 193 |
+| [oplegends.chat.zh-TW.json](packs/oplegends.chat.zh-TW.json) | 聊天訊息、系統公告、NPC 對話 | 289 |
+| [oplegends.items.zh-TW.json](packs/oplegends.items.zh-TW.json) | 物品名稱、Lore、附魔、介面物品 | 1275 |
+| [oplegends.other.zh-TW.json](packs/oplegends.other.zh-TW.json) | 記分板、Action Bar、Boss Bar、浮空文字、標題 | 233 |
 
 ## 手動匯入
 
@@ -61,3 +61,10 @@ MultiServerZh 0.5.16 起，連線到目標伺服器後執行：
 完成 130 條來源紀錄：物品／介面物品 123、浮空文字 3、聊天 2、Boss Bar 2。新增任務系列、夥伴工作與升級、狩獵、通知音效與隱私設定。沿用既有附魔名稱；指令、網址、數值佔位符保持一致。兩種身分組欄位合併為動態匹配規則，重用既有轉生按鈕詞條，另補上不綁定 K/M 等數值單位的寶石價格欄位，合計新增 129 條規則。
 
 依既有規則保留浮空文字的 `Rebirth` 標題，操作提示仍翻譯。無須更換模組；執行 `/mszh import oplegends` 手動更新。
+
+
+## 2026-11-09 第五批更新
+
+整理 135 條來源紀錄，重用 1 條既有轉生按鈕，新增 134 條：聊天／系統訊息 81、物品／介面物品 13、其他介面文字 40。內容涵蓋監獄老兵教學、任務目標、採礦與出售摘要、捕魚幸運值、派對蛋糕、機器人、木鎬升級與轉生獎勵。來源不明的幸運掉落／背包已滿組合經內容確認歸入系統聊天；沒有玩家私人發言。保留數值、指令與全部佔位符，沿用既有附魔名稱及 REBIRTH 前綴處理。
+
+執行 `/mszh import oplegends` 手動更新；0.5.24 起會從同一 commit 下載三份分類詞庫。型別佔位符仍為選用，本批保留舊式 `{0}` 相容性。
