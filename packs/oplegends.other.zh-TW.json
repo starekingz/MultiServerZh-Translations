@@ -187,5 +187,9 @@
   "Lv. {0} Core Pet": "Lv. {0} 核心寵物",
   "Lv. {0} Booster Pet": "Lv. {0} 加成寵物",
   "Walk into the Portal": "走進傳送門",
-  "Walk into the Portal ({0}m)": "走進傳送門 ({0}m)"
+  "Walk into the Portal ({0}m)": "走進傳送門 ({0}m)",
+  "Return to Spawn": "返回出生點",
+  "Start Of The World": "賽季初始",
+  "{0} Beacons Event now": "{0} 信標活動進行中",
+  "Objective: Mine {0} blocks at your {1} ({2}/{3})": "目標：在你的 {1} 挖掘 {0} 個方塊（{2}/{3}）"
 }
