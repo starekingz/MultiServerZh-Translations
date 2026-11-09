@@ -1,12 +1,12 @@
 # MultiServerZh Translations
 
-OPLegends 英翻繁體中文詞庫，共 1479 條。依主要顯示位置分為三份；同一段文字可能在不同畫面共用。
+OPLegends 英翻繁體中文詞庫，共 1532 條。依主要顯示位置分為三份；同一段文字可能在不同畫面共用。
 
 | 檔案 | 用途 | 條數 |
 | --- | --- | ---: |
-| [oplegends.chat.zh-TW.json](packs/oplegends.chat.zh-TW.json) | 聊天訊息、系統公告、NPC 對話 | 197 |
-| [oplegends.items.zh-TW.json](packs/oplegends.items.zh-TW.json) | 物品名稱、Lore、附魔、介面物品 | 1103 |
-| [oplegends.other.zh-TW.json](packs/oplegends.other.zh-TW.json) | 記分板、Action Bar、Boss Bar、浮空文字 | 179 |
+| [oplegends.chat.zh-TW.json](packs/oplegends.chat.zh-TW.json) | 聊天訊息、系統公告、NPC 對話 | 206 |
+| [oplegends.items.zh-TW.json](packs/oplegends.items.zh-TW.json) | 物品名稱、Lore、附魔、介面物品 | 1139 |
+| [oplegends.other.zh-TW.json](packs/oplegends.other.zh-TW.json) | 記分板、Action Bar、Boss Bar、浮空文字 | 187 |
 
 ## 手動匯入
 
@@ -43,3 +43,9 @@ MultiServerZh 0.5.16 起，連線到目標伺服器後執行：
 整理 29 條來源紀錄（浮空文字 15、物品／介面物品 11、聊天 3），合併為 28 條共用規則。新增 11 月造型箱、排行榜、NPC、信標活動、里程碑與機器人功能。排行榜上的玩家與幫派名稱保留原樣，改用佔位符匹配，避免數值或成員變動後失效。無玩家私人發言。
 
 此更新只改詞庫，不需要替換模組；執行 `/mszh import oplegends` 手動更新。
+
+## 2026-11-09 第二批更新
+
+兩份匯出檔去重後共 61 條（較早的 56 條已包含在新檔中），整理為 53 條共用規則。新增身分組禮包、永久與賽季身分組、訂閱、商城消耗品、寵物蛋、秋季 VKit、NPC 任務與活動訊息。身分組名稱、指令、網址及所有佔位符保留；玩家與幫派名稱改為動態匹配。九種相同結構的身分組禮包共用一條規則，並要求標題與領取條件的身分組一致。
+
+本次僅更新詞庫，仍使用 `/mszh import oplegends` 手動匯入。
