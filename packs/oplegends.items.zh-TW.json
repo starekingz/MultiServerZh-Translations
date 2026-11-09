@@ -1260,5 +1260,18 @@
   "Mine Reset Notifications\nWhether to be told\nwhen your mine resets,\nand warned before one\ncaused by mining it\nout.\n\nENABLED\nClick to disable!": "礦場重置通知\n礦場重置時是否顯示通知。\n挖掘即將導致礦場重置前，\n是否提前顯示警告。\n\n啟用\n點擊停用！",
   "Drop Armor Gems\nToggles if armor gems\ndrop when mining.\n\nENABLED\nClick to disable!": "盔甲寶石掉落\n挖礦時是否\n掉落盔甲寶石。\n\n啟用\n點擊停用！",
   "Pickaxe Slot\nWhich hotbar slot ({0}\nto {1}) your pickaxe\nsits in. Slots taken\nby your blockpack or\nmenu keep the pickaxe\nin slot {2}.\n\nSlot {3}\nClick to change!": "鎬子欄位\n設定鎬子放置的快捷欄位\n（第 {0} 至 {1} 格）。\n若欄位被方塊背包或選單占用，\n鎬子會保留在第 {2} 格。\n\n第 {3} 格\n點擊變更！",
-  "▶ Price: {0} Gems": "▶ 價格：{0} 寶石"
+  "▶ Price: {0} Gems": "▶ 價格：{0} 寶石",
+  "Your Backpack (Right Click)": "你的背包（按右鍵）",
+  "Game Selector (Right Click!)": "遊戲選擇器（按右鍵！）",
+  "🎂 Party Cake (Right Click!) 🎂": "🎂 派對蛋糕（按右鍵！）🎂",
+  "Max All\nUpgrade all your robots\nwith one click of a button\n\nClick to upgrade all!": "全部升滿\n只需按一下按鈕，\n即可升級所有機器人\n\n點擊升級全部！",
+  "🎂 Party Cake (Right Click!) 🎂\nSlice open this cake for epic rewards!\n\nObtained by reaching a global voting\nmilestone! Help us reach the next goal\nby typing {0} and voting for us!\n\nRight-click in hand to slice open!": "🎂 派對蛋糕（按右鍵！）🎂\n切開蛋糕，獲得豐厚獎勵！\n\n達成全服投票里程碑即可獲得！\n輸入 {0} 並為我們投票，\n幫助我們達成下一個目標！\n\n手持並按右鍵切開！",
+  "Fishing Spear": "捕魚矛",
+  "Fishing Spear\nThrow this at fish swimming in the\nmine pond to reel in Luck!\n\nLuck improves your odds on crates,\nlootboxes and other RNG.\n\nIt returns to you after every throw.\nThrow to spear a fish!": "捕魚矛\n朝礦場池塘中游動的魚投擲，\n即可獲得幸運值！\n\n幸運值能提高寶箱、戰利品箱\n及其他隨機獎勵的中獎機會。\n\n每次投擲後都會回到你手中。\n投擲並刺中魚吧！",
+  "Cake Slice (Right Click!)": "蛋糕切片（按右鍵！）",
+  "Cake Slice (Right Click!)\nConsume food to gain a boost to\nyour multipliers! You can consume\nup to {0} of each food type.\n \n                         \n Multiplier: Orb\n Amount: {1}\n Duration: {2} minutes\n                         \n \nRight-click to consume!": "蛋糕切片（按右鍵！）\n食用食物可提高你的\n加成倍率！每種食物\n最多可食用 {0} 份。\n \n                         \n 加成類型：寶珠\n 數量：{1}\n 持續時間：{2} 分鐘\n                         \n \n按右鍵食用！",
+  "T{0} Orb Pouch (Right Click!)": "T{0} 寶珠袋（按右鍵！）",
+  "Prison Pickaxe\nUse drop [Q] to access abilities.\n\nPickaxe Details\n│ LV: {0}\n│ |||||||||| ({1} / {2})\n│ Upgrade: None\n│ Core: None\n\nBlocks Broken\n│ RAW: {3}\n\nPerk\n│ None\n\nModifiers\n│ None yet :(\n\nEnchants\n│ Amplifier {4}\n│ Dragon Burst {5}\n│ Explosive {6}\n│ Orb Factory MAX\n│ Speed MAX\n\nClick tool in hand to upgrade!": "監獄鎬\n按下丟棄鍵 [Q] 開啟能力選單。\n\n鎬子詳細資訊\n│ 等級：{0}\n│ ||||||||||（{1} / {2}）\n│ 升級：無\n│ 核心：無\n\n已破壞方塊\n│ 原始數量：{3}\n\n特長\n│ 無\n\n改造\n│ 尚無改造 :(\n\n附魔\n│ 增幅 {4}\n│ 龍息爆發 {5}\n│ 爆破 {6}\n│ 寶珠工廠 已滿級\n│ 速度 已滿級\n\n手持工具並點擊即可升級！",
+  "[✔] T{0} Wooden Pickaxe\nEquip this pickaxe upgrade to change\nyour multipliers and other stats!\n\nPickaxe Stats\n | Orb Multi: {1}x\n | Beacon Multi: {2}x\n | Money Multi: {3}x\n\nCurrently equipped!": "[✔] T{0} 木鎬\n裝備此鎬子升級，\n即可變更倍率與其他數值！\n\n鎬子數值\n | 寶珠倍率：{1} 倍\n | 信標倍率：{2} 倍\n | 金錢倍率：{3} 倍\n\n目前已裝備！",
+  "Rebirth {0}\nUpon rebirthing, your rank will reset.\nBut doing so will grant you a permanent Money Multiplier\nand it'll up your rank up cap & orb multiplier per rank\nwhich will make you even more overpowered!\n\nInformation\n│ Required: [{1}]\n│ Max Rank: {2} → {3}\n│ Multiplier: {4}x → {5}x\n\nRewards\n│ Extra Gang Blocks: {6}x → {7}x\n\nWARNING: Upon rebirthing your rank will reset.\n\nClick to rebirth!": "轉生 {0}\n轉生後，你的階級將會重置。\n但你將獲得永久金錢倍率，\n並提高階級上限與每階級的寶珠倍率，\n讓你變得更加強大！\n\n資訊\n│ 需求：[{1}]\n│ 最高階級：{2} → {3}\n│ 倍率：{4} 倍 → {5} 倍\n\n獎勵\n│ 額外幫派方塊：{6} 倍 → {7} 倍\n\n警告：轉生後，你的階級將會重置。\n\n點擊轉生！"
 }
