@@ -709,6 +709,8 @@
   "\n(!) Eternaldeath{0} is flexing their Ascendant Pickaxe Skin: Heartstruck. Click here to see it!\n": "\n(!) Eternaldeath{0} 正在展示 超凡鎬子造型: 怦然心動。點擊此處查看！\n",
   "\n(!) xXParker is flexing their {0} Pickaxe Skin: Chrono Chisel. Click here to see it!\n": "\n(!) xXParker 正在展示 {0} Pickaxe Skin: 時序鑿刀。點擊此處查看！\n",
   "\n MINING SUMMARY ({0}s)\n  + {1}T Money\n  + {2}K Orbs\n  + {3} Beacons\n  + {4} Gems\n  + {5} Blocks\n\n Hover to view activation summary!\n": "\n 挖礦摘要（{0} 秒）\n  + {1}T 金錢\n  + {2}K 寶珠\n  + {3} 信標\n  + {4} 寶石\n  + {5} 方塊\n\n 懸停查看附魔觸發摘要！\n",
+  "{0} You have {1} completed hunts waiting to be claimed! Use {2} to claim them.": "{0} 你有 {1} 個已完成的狩獵等待領獎！使用 {2} 領取。",
+  "(!) WOW! JollyCyrus opened their Guard Lootbox and won {0}x Exclusive Pet Egg and {1} other amazing rewards! [HOVER]": "(!) 哇！JollyCyrus 開啟守衛戰利品箱，獲得 {0} 個專屬寵物蛋及其他 {1} 項驚人獎勵！[懸停查看]",
   "\nRankup Summary (Hover for Details)\n │ Ranks Purchased: {0}\n │ Total Spent: {1} Dollars\n │ New Rank: {2}\n": "\n升階摘要（滑鼠懸停查看詳情）\n │ 購買階級數：{0}\n │ 總花費：{1} 元\n │ 新階級：{2}\n",
   "Fortune": "幸運",
   "Mine Keyfinder": "礦場尋鑰",
@@ -2145,6 +2147,8 @@
   "Invalid Input!\nThe input you have entered is not valid.\nPlease enter what is requested before trying to submit.\n\nYou must input a valid value\n\n裝備時：\n{0} 盔甲": "輸入無效！\n你輸入的內容無效。\n請依照要求輸入內容後，再嘗試提交。\n\n你必須輸入有效數值\n\n裝備時：\n{0} 盔甲",
   "Invalid Input!\nThe input you have entered is not valid.\nPlease enter what is requested before trying to submit.\n\nYour input is too short\n\n裝備時：\n{0} 盔甲": "輸入無效！\n你輸入的內容無效。\n請依照要求輸入內容後，再嘗試提交。\n\n你輸入的內容太短\n\n裝備時：\n{0} 盔甲",
   "[Lvl {0}] Washed Up Uncs\n\n                         \nWeek {1} Blocks:\n {2}\n                         \n\n                         \nMembers: (blocks)\n xXParker ({3})\n DrawnTapestry{4} ({5})\n YourMasAHo ({6})\n alexbrine ({7})\n DaddyArz ({8})\n                         ": "[等級 {0}] Washed Up Uncs\n\n                         \n第 {1} 週方塊數：\n {2}\n                         \n\n                         \n成員：（方塊數）\n xXParker（{3}）\n DrawnTapestry{4}（{5}）\n YourMasAHo（{6}）\n alexbrine（{7}）\n DaddyArz（{8}）\n                         ",
+  "Beacon Booster [{0}, {1}m]\nClaiming this booster will add\nit to your {2} queue.\n\nInformation\n│ Amount: {3}\n│ Duration: {4} minutes\n\nClick in hand to claim!": "信標加成 [{0}, {1} 分鐘]\n領取此加成後，將會加入\n你的 {2} 加成佇列。\n\n資訊\n│ 數量：{3}\n│ 持續時間：{4} 分鐘\n\n手持並點擊領取！",
+  "Super Cookie\nUpon consumption, you will gain a\nlist of buffs for {0} hours ({1}).\n\n                         \n Buff List:\n  - Access to {2} more Food Slots\n  - Gain a {3} Boost for Orbs, Money, and Gems\n  - Gain a {4} Boost for Beacons & Tool Level\n  - Gain a {5} Bonus Boss Beacons\n                         \n\nRight-click to consume!": "超級餅乾\n食用後可獲得一系列增益，\n持續 {0} 小時（{1}）。\n\n                         \n 增益列表：\n  - 額外解鎖 {2} 個食物欄位\n  - 寶珠、金錢及寶石收益加成 {3}\n  - 信標及工具等級加成 {4}\n  - 首領信標額外加成 {5}\n                         \n\n按右鍵食用！",
   "Speak with Guide Jacob ({0}m)": "與嚮導雅各交談（{0} 公尺）",
   "Guide Jacob": "嚮導雅各",
   "Speak with Guide Jacob": "與嚮導雅各交談",
@@ -2402,5 +2406,7 @@
   "You've unlocked Tier {0} in {1}!": "你已在 {1} 解鎖第 {0} 階！",
   "{0} Gems Event now": "{0} 寶石活動進行中",
   "Crystal Giant - {0}❤": "水晶巨人 - {0}❤",
-  "⚔ Crystal Giant - {0}❤ ⚔\n\nDrops {1} lootbags on death\n                         \n#{2}: \n#{3}: \n#{4}: \n#{5}: \n#{6}: \n#{7}: \n                         ": "⚔ 水晶巨人 - {0}❤ ⚔\n\n死亡時掉落 {1} 個戰利品袋\n                         \n#{2}: \n#{3}: \n#{4}: \n#{5}: \n#{6}: \n#{7}: \n                         "
+  "⚔ Crystal Giant - {0}❤ ⚔\n\nDrops {1} lootbags on death\n                         \n#{2}: \n#{3}: \n#{4}: \n#{5}: \n#{6}: \n#{7}: \n                         ": "⚔ 水晶巨人 - {0}❤ ⚔\n\n死亡時掉落 {1} 個戰利品袋\n                         \n#{2}: \n#{3}: \n#{4}: \n#{5}: \n#{6}: \n#{7}: \n                         ",
+  "Objective: Reach Pickaxe Level {0} and upgrade Laser": "目標：將鎬子升至 {0} 級並升級雷射",
+  "Event Crate\n\nActive Buff: No Coinflip Tax\nTime Left: {0} hours": "活動寶箱\n\n目前增益：免擲硬幣稅\n剩餘時間：{0} 小時"
 }
