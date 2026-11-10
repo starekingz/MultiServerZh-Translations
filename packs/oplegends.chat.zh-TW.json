@@ -708,5 +708,7 @@
   "\n(!) DaddyArz is flexing their Ascendant Pickaxe Skin: Fire Pickaxe. Click here to see it!\n": "\n(!) DaddyArz 正在展示 超凡鎬子造型: 烈焰鎬。點擊此處查看！\n",
   "\n(!) Eternaldeath{0} is flexing their Ascendant Pickaxe Skin: Heartstruck. Click here to see it!\n": "\n(!) Eternaldeath{0} 正在展示 超凡鎬子造型: 怦然心動。點擊此處查看！\n",
   "\n(!) xXParker is flexing their {0} Pickaxe Skin: Chrono Chisel. Click here to see it!\n": "\n(!) xXParker 正在展示 {0} Pickaxe Skin: 時序鑿刀。點擊此處查看！\n",
-  "\n MINING SUMMARY ({0}s)\n  + {1}T Money\n  + {2}K Orbs\n  + {3} Beacons\n  + {4} Gems\n  + {5} Blocks\n\n Hover to view activation summary!\n": "\n 挖礦摘要（{0} 秒）\n  + {1}T 金錢\n  + {2}K 寶珠\n  + {3} 信標\n  + {4} 寶石\n  + {5} 方塊\n\n 懸停查看附魔觸發摘要！\n"
+  "\n MINING SUMMARY ({0}s)\n  + {1}T Money\n  + {2}K Orbs\n  + {3} Beacons\n  + {4} Gems\n  + {5} Blocks\n\n Hover to view activation summary!\n": "\n 挖礦摘要（{0} 秒）\n  + {1}T 金錢\n  + {2}K 寶珠\n  + {3} 信標\n  + {4} 寶石\n  + {5} 方塊\n\n 懸停查看附魔觸發摘要！\n",
+  "{0} You have {1} completed hunts waiting to be claimed! Use {2} to claim them.": "{0} 你有 {1} 個已完成的狩獵等待領獎！使用 {2} 領取。",
+  "(!) WOW! JollyCyrus opened their Guard Lootbox and won {0}x Exclusive Pet Egg and {1} other amazing rewards! [HOVER]": "(!) 哇！JollyCyrus 開啟守衛戰利品箱，獲得 {0} 個專屬寵物蛋及其他 {1} 項驚人獎勵！[懸停查看]"
 }
