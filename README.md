@@ -118,9 +118,9 @@ MultiServerZh 0.5.16 起，連線到目標伺服器後執行：
 
 | 檔案 | 條數 |
 | --- | ---: |
-| [pikanetwork.chat.zh-TW.json](packs/pikanetwork.chat.zh-TW.json) | 26 |
-| [pikanetwork.items.zh-TW.json](packs/pikanetwork.items.zh-TW.json) | 210 |
-| [pikanetwork.other.zh-TW.json](packs/pikanetwork.other.zh-TW.json) | 43 |
+| [pikanetwork.chat.zh-TW.json](packs/pikanetwork.chat.zh-TW.json) | 68 |
+| [pikanetwork.items.zh-TW.json](packs/pikanetwork.items.zh-TW.json) | 287 |
+| [pikanetwork.other.zh-TW.json](packs/pikanetwork.other.zh-TW.json) | 78 |
 
 [pikanetwork.servers.json](packs/pikanetwork.servers.json) 提供 IP 與顯示名稱；[pikanetwork.zh-TW.json](packs/pikanetwork.zh-TW.json) 為相容合併檔。0.5.32 起會從索引自動辨識此伺服器；連線後點擊更新提示，或執行 `/mszh import` 手動匯入。目前只標記使用者指定的 `mcslr.pika.host`，不依畫面網址猜測其他連線別名。
 
@@ -128,3 +128,8 @@ MultiServerZh 0.5.16 起，連線到目標伺服器後執行：
 ## 2026-11-10 PikaNetwork 第二批
 
 整理 301 條來源紀錄，排除 54 條逐字動畫半截標題，新增 247 條完整翻譯：聊天／系統 23、物品／介面物品 183、其他 41。PikaNetwork 共 279 條（聊天 26、物品 210、其他 43）。新增超級監獄教學、私人礦場、飛升／轉生／升階、寵物、採石場、礦工、排行榜、戰區、猜硬幣與里程碑介面。無玩家自由發言；榜單玩家、網址、指令與 Gold 等貨幣名稱保持原樣。來源鍵、格式代碼、全部佔位符與換行數皆經檢查。使用 `/mszh import` 手動更新。
+
+
+## 2026-11-10 PikaNetwork 第三批
+
+兩份匯出檔包含相同的 261 條來源。排除 110 條動畫中間片段，翻譯 151 條完整內容；新增 150 條、修訂 1 條既有轉生浮空文字，並新增 4 條去除格式碼的相容匹配規則。總計 433 條。涵蓋附魔、里程碑領獎、教學、礦場水晶、燃料、配裝與主選單。無玩家自由發言；掛機通知屬系統訊息。原始格式碼詞條與純文字相容規則並存，全部佔位符及來源換行檢查通過。
