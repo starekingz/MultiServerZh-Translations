@@ -1,12 +1,12 @@
 # MultiServerZh Translations
 
-OPLegends 英翻繁體中文詞庫，共 2427 條。依主要顯示位置分為三份；同一段文字可能在不同畫面共用。
+OPLegends 英翻繁體中文詞庫，共 2828 條。依主要顯示位置分為三份；同一段文字可能在不同畫面共用。
 
 | 檔案 | 用途 | 條數 |
 | --- | --- | ---: |
-| [oplegends.chat.zh-TW.json](packs/oplegends.chat.zh-TW.json) | 聊天訊息、系統公告、NPC 對話 | 712 |
-| [oplegends.items.zh-TW.json](packs/oplegends.items.zh-TW.json) | 物品名稱、Lore、附魔、介面物品 | 1455 |
-| [oplegends.other.zh-TW.json](packs/oplegends.other.zh-TW.json) | 記分板、Action Bar、Boss Bar、浮空文字、標題 | 260 |
+| [oplegends.chat.zh-TW.json](packs/oplegends.chat.zh-TW.json) | 聊天訊息、系統公告、NPC 對話 | 928 |
+| [oplegends.items.zh-TW.json](packs/oplegends.items.zh-TW.json) | 物品名稱、Lore、附魔、介面物品 | 1634 |
+| [oplegends.other.zh-TW.json](packs/oplegends.other.zh-TW.json) | 記分板、Action Bar、Boss Bar、浮空文字、標題 | 266 |
 
 ## 手動匯入
 
@@ -94,3 +94,10 @@ MultiServerZh 0.5.16 起，連線到目標伺服器後執行：
 ## 2026-11-10 首領與通行證獎勵
 
 新增 17 條物品／介面物品譯文：六種首領資訊、免費／黃金／鑽石獎勵、兩種通行證與通行證進度資訊。保留星級、空行及全部數值佔位符；分類檔與相容合併檔同步更新。執行 `/mszh import oplegends` 手動匯入。
+
+
+## 2026-11-10 第二批：附魔、拍賣與保險庫
+
+整理並翻譯 402 條來源紀錄：聊天／系統 216、物品／介面物品 179、其他顯示文字 7。重用 1 條既有詞條，新增 401 條，共 2828 條。涵蓋附魔星級與滿級狀態、鎬子詳情、精通獎勵、機器人、拍賣物品、保險庫開鎖、皮納塔與聊天活動。原文鍵、數值佔位符、換行、玩家名稱與互動指令保留；沒有玩家自由發言。保留 REBIRTH 前綴與浮空文字 Rebirth 標題，操作提示正常翻譯。
+
+執行 `/mszh import oplegends` 手動更新，或點擊進服時的詞庫更新提示。此次僅更新詞庫，無須更換模組。
