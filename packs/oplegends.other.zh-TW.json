@@ -264,5 +264,19 @@
   "VAULT CRACKED": "保險庫已開啟",
   "{0} Bits": "{0} Bits",
   "Security Officer - {0}❤": "警衛 - {0}❤",
-  "⚔ Security Officer - {0}❤ ⚔\n\nDrops {1} lootbags on death\n                         \n#{2}: \n#{3}: \n#{4}: \n#{5}: \n#{6}: \n                         ": "⚔ 警衛 - {0}❤ ⚔\n\n死亡時掉落 {1} 個戰利品袋\n                         \n#{2}:\n#{3}:\n#{4}:\n#{5}:\n#{6}:\n                         "
+  "⚔ Security Officer - {0}❤ ⚔\n\nDrops {1} lootbags on death\n                         \n#{2}: \n#{3}: \n#{4}: \n#{5}: \n#{6}: \n                         ": "⚔ 警衛 - {0}❤ ⚔\n\n死亡時掉落 {1} 個戰利品袋\n                         \n#{2}:\n#{3}:\n#{4}:\n#{5}:\n#{6}:\n                         ",
+  "Click to view!": "點擊查看！",
+  "Ascendant Collector's Unstable Salvaged Registered Case Cracker Custom Hat\nLevel {0} Ascendant Collector's Registered Salvaged Hat\n⭐ Legendary Effect: Fortune Fountain\n⭐ Tablist Color: Custom\n⭐ Crown: {1}\n☄ Minutes Worn: {2}\n\nHat Color: Yellow\n\nDate Created: {3}{4}{5}\nLast Traded: Never\nOwner Count: {6}\n\nTags: Tradable, Marketable, Not Equipped": "昇華收藏家的不穩定回收登記開箱者自訂帽子\n等級 {0} 昇華收藏家的登記回收帽子\n⭐ 傳奇特效：幸運噴泉\n⭐ 玩家列表顏色：自訂\n⭐ 皇冠：{1}\n☄ 配戴分鐘數：{2}\n\n帽子顏色：黃色\n\n建立日期：{3}{4}{5}\n最後交易：從未\n歷任擁有者數：{6}\n\n標籤：可交易、可上架、未裝備",
+  "PRICE: {0} Credits": "價格：{0} 點數",
+  "Reach the block goal to summon a giant piñata!\nHit it together to pop it for rewards,\nand the top {0} damagers win the biggest prizes.\n\nBlocks: {1}M/{2}M": "達成方塊目標，召喚巨型皮納塔！\n一起攻擊它，打破後即可獲得獎勵，\n傷害排名前 {0} 名的玩家可獲得最豐厚的獎品。\n\n方塊：{1}M/{2}M",
+  "Insane Custom Pickaxe Skins": "超強自訂鎬子造型",
+  "Regular Cosmetic Case": "一般造型箱",
+  "Common Flair Case": "普通風采箱",
+  "Limited Edition Cosmetic Case": "限量版造型箱",
+  "Rare Style Case": "稀有風格箱",
+  "Run forward to get to \nyour very own mine!": "向前跑，前往\n你專屬的礦場！",
+  "Loot Crate\nYou have {0} keys.": "戰利品寶箱\n你擁有 {0} 把鑰匙。",
+  "Relic Crate\nYou have {0} keys.": "遺物寶箱\n你擁有 {0} 把鑰匙。",
+  "Vote Crate\nYou have {0} keys.": "投票寶箱\n你擁有 {0} 把鑰匙。",
+  "OPKeyAll Crate\nYou have {0} keys.": "OP 全服鑰匙寶箱\n你擁有 {0} 把鑰匙。"
 }
