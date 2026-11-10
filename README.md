@@ -1,11 +1,11 @@
 # MultiServerZh Translations
 
-OPLegends 英翻繁體中文詞庫，共 2410 條。依主要顯示位置分為三份；同一段文字可能在不同畫面共用。
+OPLegends 英翻繁體中文詞庫，共 2427 條。依主要顯示位置分為三份；同一段文字可能在不同畫面共用。
 
 | 檔案 | 用途 | 條數 |
 | --- | --- | ---: |
 | [oplegends.chat.zh-TW.json](packs/oplegends.chat.zh-TW.json) | 聊天訊息、系統公告、NPC 對話 | 712 |
-| [oplegends.items.zh-TW.json](packs/oplegends.items.zh-TW.json) | 物品名稱、Lore、附魔、介面物品 | 1438 |
+| [oplegends.items.zh-TW.json](packs/oplegends.items.zh-TW.json) | 物品名稱、Lore、附魔、介面物品 | 1455 |
 | [oplegends.other.zh-TW.json](packs/oplegends.other.zh-TW.json) | 記分板、Action Bar、Boss Bar、浮空文字、標題 | 260 |
 
 ## 手動匯入
@@ -89,3 +89,8 @@ MultiServerZh 0.5.16 起，連線到目標伺服器後執行：
 [packs/oplegends.servers.json](packs/oplegends.servers.json) 標記此詞庫適用位址為 `play.oplegends.com`。進入多人伺服器後，先將目前連線地址與遠端 `server_ips` 比對，匹配才下載分類檔檢查更新；不匹配則不顯示更新提示。點擊更新／手動匯入亦重新檢查，避免匯入到其他伺服器。
 
 位址比對忽略大小寫、結尾的點與預設連接埠 `25565`，不使用伺服器清單名稱、DNS解析或子網域猜測；其他連接埠必須另外標記。預設詞庫的位址標記與分類檔固定使用同一commit。自訂單檔URL須提供同目錄、同檔名前綴的 `.servers.json`（例如 `custom.json` 對應 `custom.servers.json`），格式同上述檔案。
+
+
+## 2026-11-10 首領與通行證獎勵
+
+新增 17 條物品／介面物品譯文：六種首領資訊、免費／黃金／鑽石獎勵、兩種通行證與通行證進度資訊。保留星級、空行及全部數值佔位符；分類檔與相容合併檔同步更新。執行 `/mszh import oplegends` 手動匯入。
