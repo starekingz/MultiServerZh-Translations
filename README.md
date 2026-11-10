@@ -118,9 +118,9 @@ MultiServerZh 0.5.16 起，連線到目標伺服器後執行：
 
 | 檔案 | 條數 |
 | --- | ---: |
-| [pikanetwork.chat.zh-TW.json](packs/pikanetwork.chat.zh-TW.json) | 68 |
-| [pikanetwork.items.zh-TW.json](packs/pikanetwork.items.zh-TW.json) | 287 |
-| [pikanetwork.other.zh-TW.json](packs/pikanetwork.other.zh-TW.json) | 78 |
+| [pikanetwork.chat.zh-TW.json](packs/pikanetwork.chat.zh-TW.json) | 96 |
+| [pikanetwork.items.zh-TW.json](packs/pikanetwork.items.zh-TW.json) | 448 |
+| [pikanetwork.other.zh-TW.json](packs/pikanetwork.other.zh-TW.json) | 93 |
 
 [pikanetwork.servers.json](packs/pikanetwork.servers.json) 提供 IP 與顯示名稱；[pikanetwork.zh-TW.json](packs/pikanetwork.zh-TW.json) 為相容合併檔。0.5.32 起會從索引自動辨識此伺服器；連線後點擊更新提示，或執行 `/mszh import` 手動匯入。目前只標記使用者指定的 `mcslr.pika.host`，不依畫面網址猜測其他連線別名。
 
@@ -133,3 +133,8 @@ MultiServerZh 0.5.16 起，連線到目標伺服器後執行：
 ## 2026-11-10 PikaNetwork 第三批
 
 兩份匯出檔包含相同的 261 條來源。排除 110 條動畫中間片段，翻譯 151 條完整內容；新增 150 條、修訂 1 條既有轉生浮空文字，並新增 4 條去除格式碼的相容匹配規則。總計 433 條。涵蓋附魔、里程碑領獎、教學、礦場水晶、燃料、配裝與主選單。無玩家自由發言；掛機通知屬系統訊息。原始格式碼詞條與純文字相容規則並存，全部佔位符及來源換行檢查通過。
+
+
+## 2026-11-10 PikaNetwork 第四批
+
+兩份匯出檔包含相同的 216 條來源；重用 1 條既有詞條，排除 11 條玩家自由發言，新增 204 條。包含寵物融合／刪除／欄位、鎬子附魔與造型、附魔書與寶箱、Gold 商店、採石場燃料及反掛機驗證提示。保留 Gold／Iron、身分組、網址、指令與全部佔位符；打字競速的答案 Netherite Boots 保留英文原文以便正確作答。未加入玩家聊天。PikaNetwork 共 637 條。執行 `/mszh import` 手動更新。
