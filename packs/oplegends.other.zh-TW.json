@@ -258,5 +258,11 @@
   "Crystal Giant - {0}❤": "水晶巨人 - {0}❤",
   "⚔ Crystal Giant - {0}❤ ⚔\n\nDrops {1} lootbags on death\n                         \n#{2}: \n#{3}: \n#{4}: \n#{5}: \n#{6}: \n#{7}: \n                         ": "⚔ 水晶巨人 - {0}❤ ⚔\n\n死亡時掉落 {1} 個戰利品袋\n                         \n#{2}: \n#{3}: \n#{4}: \n#{5}: \n#{6}: \n#{7}: \n                         ",
   "Objective: Reach Pickaxe Level {0} and upgrade Laser": "目標：將鎬子升至 {0} 級並升級雷射",
-  "Event Crate\n\nActive Buff: No Coinflip Tax\nTime Left: {0} hours": "活動寶箱\n\n目前增益：免擲硬幣稅\n剩餘時間：{0} 小時"
+  "Event Crate\n\nActive Buff: No Coinflip Tax\nTime Left: {0} hours": "活動寶箱\n\n目前增益：免擲硬幣稅\n剩餘時間：{0} 小時",
+  "Head to spawn and smash it!": "前往重生點打破它！",
+  "PIÑATA PARTY AT SPAWN - {0} / {1} hits": "重生點皮納塔派對 - {0} / {1} 次攻擊",
+  "VAULT CRACKED": "保險庫已開啟",
+  "{0} Bits": "{0} Bits",
+  "Security Officer - {0}❤": "警衛 - {0}❤",
+  "⚔ Security Officer - {0}❤ ⚔\n\nDrops {1} lootbags on death\n                         \n#{2}: \n#{3}: \n#{4}: \n#{5}: \n#{6}: \n                         ": "⚔ 警衛 - {0}❤ ⚔\n\n死亡時掉落 {1} 個戰利品袋\n                         \n#{2}:\n#{3}:\n#{4}:\n#{5}:\n#{6}:\n                         "
 }
