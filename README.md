@@ -110,3 +110,16 @@ MultiServerZh 0.5.16 起，連線到目標伺服器後執行：
 本地詞庫依正規化連線位址分開儲存與載入；進出伺服器會清除畫面快取。沒有該伺服器的本地詞庫時保持原文，仍可蒐集 missing；遠端有對應包時顯示可點擊更新，遠端也沒有時提示無翻譯包。遠端查詢失敗會明確提示，已有的本地譯文仍可離線使用。`/mszh import` 自動尋找當前伺服器翻譯包，舊指令 `/mszh import oplegends` 保留相容。
 
 新增伺服器時，在索引的 `packs` 加入唯一識別字（小寫英數、底線或連字號），並提供同名前綴的 `.servers.json`、`.chat.zh-TW.json`、`.items.zh-TW.json`、`.other.zh-TW.json`。名稱取自標記檔，三類內容全部驗證成功後才匯入。自訂單檔 URL 沿用同名前綴 `.servers.json` 的方式。
+
+
+## PikaNetwork 翻譯包
+
+伺服器名稱：PikaNetwork；連線 IP：`mcslr.pika.host`。與 OPLegends 分開維護，不共用伺服器詞庫。首批共 32 條：聊天／系統 3、物品／介面物品 27、其他 2（計分板、Action Bar 各 1）；沒有玩家自由發言。數值佔位符、格式代碼、指令及網址保持原樣。Member、Pika+ 等身分組名稱保留。
+
+| 檔案 | 條數 |
+| --- | ---: |
+| [pikanetwork.chat.zh-TW.json](packs/pikanetwork.chat.zh-TW.json) | 3 |
+| [pikanetwork.items.zh-TW.json](packs/pikanetwork.items.zh-TW.json) | 27 |
+| [pikanetwork.other.zh-TW.json](packs/pikanetwork.other.zh-TW.json) | 2 |
+
+[pikanetwork.servers.json](packs/pikanetwork.servers.json) 提供 IP 與顯示名稱；[pikanetwork.zh-TW.json](packs/pikanetwork.zh-TW.json) 為相容合併檔。0.5.32 起會從索引自動辨識此伺服器；連線後點擊更新提示，或執行 `/mszh import` 手動匯入。目前只標記使用者指定的 `mcslr.pika.host`，不依畫面網址猜測其他連線別名。
