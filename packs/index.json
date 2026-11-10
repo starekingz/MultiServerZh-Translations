@@ -1,4 +1,7 @@
 {
   "schema_version": 1,
-  "packs": ["oplegends"]
+  "packs": [
+    "oplegends",
+    "pikanetwork"
+  ]
 }
