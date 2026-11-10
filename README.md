@@ -1,12 +1,12 @@
 # MultiServerZh Translations
 
-OPLegends 英翻繁體中文詞庫，共 2404 條。依主要顯示位置分為三份；同一段文字可能在不同畫面共用。
+OPLegends 英翻繁體中文詞庫，共 2410 條。依主要顯示位置分為三份；同一段文字可能在不同畫面共用。
 
 | 檔案 | 用途 | 條數 |
 | --- | --- | ---: |
-| [oplegends.chat.zh-TW.json](packs/oplegends.chat.zh-TW.json) | 聊天訊息、系統公告、NPC 對話 | 710 |
-| [oplegends.items.zh-TW.json](packs/oplegends.items.zh-TW.json) | 物品名稱、Lore、附魔、介面物品 | 1436 |
-| [oplegends.other.zh-TW.json](packs/oplegends.other.zh-TW.json) | 記分板、Action Bar、Boss Bar、浮空文字、標題 | 258 |
+| [oplegends.chat.zh-TW.json](packs/oplegends.chat.zh-TW.json) | 聊天訊息、系統公告、NPC 對話 | 712 |
+| [oplegends.items.zh-TW.json](packs/oplegends.items.zh-TW.json) | 物品名稱、Lore、附魔、介面物品 | 1438 |
+| [oplegends.other.zh-TW.json](packs/oplegends.other.zh-TW.json) | 記分板、Action Bar、Boss Bar、浮空文字、標題 | 260 |
 
 ## 手動匯入
 
@@ -77,3 +77,8 @@ MultiServerZh 0.5.16 起，連線到目標伺服器後執行：
 0.5.26 優先匹配整段聊天；未命中時依原始訊息的換行翻譯已知行，未知行保持原文。分類聊天詞庫可衍生無歧義的逐行規則。保留空行、顏色與互動連結，不以畫面自動折行拆訊息；missing 仍依一次聊天變動蒐集完整條目。另補強 From／To 私訊及帶階級圖示暱稱的排除。
 
 更新模組至 0.5.26 後執行 `/mszh import oplegends`。遊戲內樣式與其他模組相容性仍需實測。
+
+
+## 2026-11-10 補充六條譯文
+
+新增鎬子等級／雷射任務目標、活動寶箱整點倒數、狩獵領獎通知、守衛戰利品箱公告、信標加成與超級餅乾。聊天2條、物品2條、其他2條；所有佔位符保留。執行 `/mszh import oplegends`，或在支援進服更新提示的模組版本中點擊更新。
