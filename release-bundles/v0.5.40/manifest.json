@@ -1,0 +1,16 @@
+{
+  "version": "0.5.40",
+  "assets": [
+    {
+      "name": "multiserverzh-0.5.40.jar",
+      "sha256": "72489de9c30634a6be0d308bd99ea947db201fed62c527a650f39553b6536a9d",
+      "size": 366411
+    },
+    {
+      "name": "multiserverzh-0.5.40-source.zip",
+      "sha256": "83d7a835cf5712dbe1d5338e62d9df7043ee699c9049f99038f3d6ea7fc2b5e0",
+      "size": 884346
+    }
+  ],
+  "notes": "## MultiServerZh 0.5.40\n\n適用 Minecraft Java 1.21.11／Fabric Loader 0.19.2+／Fabric API／Java 21+。\n\n### 修正資源包圖片佔位符\n原文中的「我」、「的」等普通 Unicode 字元可能被伺服器資源包用作圖片字形。此前即使詞條原樣保留字元，模組仍會強制套用 minecraft:uniform，導致圖片失效。\n\n本版讓從原文保留下來的行、片段與圖片佔位符沿用原始字型及完整樣式；新產生的中文譯文仍使用中文字型。支援同一字型、多種字型、行內及重複圖示、補充平面 Unicode 字元。詞條與資源包均不用修改。\n\n例如：`Upgrader\\n{0}\\n我` → `升級師\\n{0}\\n我`，末行「我」保留伺服器圖片字形。\n\n### 安裝與更新\n- 下載 multiserverzh-0.5.40.jar，替換 mods 中的舊版 JAR。\n- 已使用 0.5.39 的玩家可透過進服更新提示下載；正常關閉遊戲後稍候數秒再啟動，才會套用新版。\n- 0.5.38 或更早版本須手動升級一次。\n- multiserverzh-0.5.40-source.zip 為完整對應原始碼；GitHub 自動產生的 Source code 壓縮檔僅對應本詞庫倉庫。\n- AGPL-3.0-only，包含 WynnChaYuan UI 的來源與授權說明。\n\n### 驗證\n通過 6,252 項核心檢查（含 49 項新增字形保留檢查）及 1,905 項匯出／更新檢查。尚未使用 PikaNetwork 實際資源包進行畫面驗收。\n"
+}
