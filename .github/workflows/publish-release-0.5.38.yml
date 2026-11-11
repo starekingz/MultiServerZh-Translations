@@ -1,0 +1,61 @@
+name: Publish MultiServerZh v0.5.38
+on:
+  push:
+    paths:
+      - release-bundles/v0.5.38/manifest.json
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: release-v0.5.38
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+      REF: ${{ github.sha }}
+    steps:
+      - name: Download and verify reviewed release assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p release-out
+          gh api -H "Accept: application/vnd.github.raw+json" "repos/$REPO/contents/release-bundles/v0.5.38/manifest.json?ref=$REF" > release-out/manifest.json
+          for asset in multiserverzh-0.5.38.jar multiserverzh-0.5.38-source.zip; do
+            gh api -H "Accept: application/vnd.github.raw+json" "repos/$REPO/contents/release-bundles/v0.5.38/$asset.base64?ref=$REF" | base64 --decode > "release-out/$asset"
+          done
+          python - <<'PY'
+          import hashlib,json,zipfile
+          from pathlib import Path
+          root=Path("release-out")
+          manifest=json.loads((root/"manifest.json").read_text())
+          assert manifest["version"]=="0.5.38"
+          sums=[]
+          for item in manifest["assets"]:
+              path=root/item["name"]
+              assert path.name in {"multiserverzh-0.5.38.jar","multiserverzh-0.5.38-source.zip"}
+              digest=hashlib.sha256(path.read_bytes()).hexdigest()
+              assert digest==item["sha256"],f"Checksum mismatch: {path.name}"
+              sums.append(f"{digest}  {path.name}")
+              with zipfile.ZipFile(path) as archive:
+                  assert archive.testzip() is None
+                  if path.suffix==".jar":
+                      assert json.loads(archive.read("fabric.mod.json"))["version"]=="0.5.38"
+          (root/"SHA256SUMS.txt").write_text("\n".join(sums)+"\n")
+          (root/"release-notes.md").write_text(manifest["notes"])
+          PY
+      - name: Publish stable release
+        shell: bash
+        run: |
+          set -euo pipefail
+          if gh release view v0.5.38 --repo "$REPO" >/dev/null 2>&1; then
+            echo "Release v0.5.38 already exists; refusing to replace its assets."
+            exit 1
+          fi
+          gh release create v0.5.38 --repo "$REPO" --target "$REF" --latest \
+            --title "MultiServerZh v0.5.38" --notes-file release-out/release-notes.md \
+            release-out/multiserverzh-0.5.38.jar \
+            release-out/multiserverzh-0.5.38-source.zip \
+            release-out/SHA256SUMS.txt
