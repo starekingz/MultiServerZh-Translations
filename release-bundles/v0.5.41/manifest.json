@@ -1,0 +1,16 @@
+{
+  "version": "0.5.41",
+  "assets": [
+    {
+      "name": "multiserverzh-0.5.41.jar",
+      "sha256": "55ff6b5d15e197cdea94b1d2bd314061170f10f92487d446a4b2c7c03f1d9e29",
+      "size": 369330
+    },
+    {
+      "name": "multiserverzh-0.5.41-source.zip",
+      "sha256": "11cfd0bbcdd32e5f6e4d2238f43098e7cec2de68cea6e368253e4d492f26b56f",
+      "size": 886160
+    }
+  ],
+  "notes": "## MultiServerZh 0.5.41\n\n修正模組更新檢查誤報「目前已是最新版」的問題。適用 Minecraft 1.21.11／Fabric Loader 0.19.2+／Fabric API／Java 21+。\n\n- `/mszh modupdate` 現在強制重新查詢 GitHub，略過進服檢查的 15 分鐘快取；即使自動檢查關閉，仍可手動檢查。\n- 只有成功取得可安裝 JAR 的正式 Release 才會快取。沒有 Release、附件缺失、格式錯誤、網路或 GitHub 錯誤都不再被當成「最新版」。\n- 檢查訊息顯示遠端版本及是否使用快取，日誌記錄已安裝版本與遠端版本。\n- 包含 0.5.40 的圖片佔位符字型保留修正，以及 0.5.39 的背景 missing 匯出與下載更新功能。\n\n### 從 0.5.39／0.5.40 升級\n舊版手動檢查仍可能沿用快取。可先正常關閉並重新啟動遊戲以清除快取，再進服檢查；也可直接下載 multiserverzh-0.5.41.jar，替換 mods 中舊版。新版更新檢查修正無法回溯改變仍在執行的舊版。\n\n完整對應原始碼為 multiserverzh-0.5.41-source.zip。GitHub 自動產生的 Source code 僅包含詞庫倉庫。AGPL-3.0-only，保留 WynnChaYuan UI 來源與授權說明。\n\n### 驗證\n6,252 項核心檢查與 1,916 項匯出／更新檢查通過，新增案例涵蓋快取 0.5.39 時手動發現 0.5.40、附件缺失不快取、手動檢查失敗不回報最新版、快取過期與系統時間回撥。GitHub 目前 0.5.40 JAR 的大小及 SHA-256 已核對。尚未在真實 Minecraft 客戶端完成更新流程驗收。\n"
+}
