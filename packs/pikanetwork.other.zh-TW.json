@@ -643,5 +643,22 @@
   "FRENZY | Random Bombs ({0}) will start in {1}m!": "狂熱 | 隨機炸彈 ({0}) 將於 {1} 分 後開始！",
   "Crystal Chaos": "水晶混沌",
   "Coin Bomb enchant unlocks in {0} blocks": "再挖掘 {0} 個方塊即可解鎖硬幣炸彈附魔",
-  "✯ {0} ━━━━━━━━━━━━━━━ ({1}) ▪ Your Explosive has activated. ▪ Quarry ⛏ {2} EXP ({3} EXP Boosted)": "✯ {0} ━━━━━━━━━━━━━━━ ({1}) ▪ 你的爆破附魔已觸發。 ▪ 採石場 ⛏ {2} 經驗值 ({3} 經驗加成)"
+  "✯ {0} ━━━━━━━━━━━━━━━ ({1}) ▪ Your Explosive has activated. ▪ Quarry ⛏ {2} EXP ({3} EXP Boosted)": "✯ {0} ━━━━━━━━━━━━━━━ ({1}) ▪ 你的爆破附魔已觸發。 ▪ 採石場 ⛏ {2} 經驗值 ({3} 經驗加成)",
+  "FRENZY | Random Bombs ({0}) is active for another {1}m {2}s!": "狂熱 | 隨機炸彈 ({0})還將持續 {1} 分 {2} 秒！",
+  "FRENZY | Autominer Speed ({0}) will start in {1}m {2}s!": "狂熱 | 自動礦工速度 ({0})將於 {1} 分 {2} 秒後開始！",
+  "Coin Bomb enchant unlocked!": "硬幣炸彈附魔已解鎖！",
+  "Gang Event | Gang Mine Blocks Broken ends in {0}m {1}s!": "幫派活動 | 幫派礦場方塊挖掘將於 {0} 分 {1} 秒後結束！",
+  "Gang Event | Gang Mine Blocks Broken ends in {0}m!": "幫派活動 | 幫派礦場方塊挖掘將於 {0} 分鐘後結束！",
+  "FRENZY | Autominer Speed ({0}) will start in {1}m!": "狂熱 | 自動礦工速度 ({0})將於 {1} 分鐘後開始！",
+  "FRENZY | Random Bombs ({0}) is active for another {1}m!": "狂熱 | 隨機炸彈 ({0})還將持續 {1} 分 ！",
+  "FRENZY | Autominer Speed ({0}) will start in {1}s!": "狂熱 | 自動礦工速度 ({0})將於 {1} 秒後開始！",
+  "FRENZY | Random Bombs ({0}) is active for another {1}s!": "狂熱 | 隨機炸彈 ({0})還將持續 {1} 秒！",
+  "FRENZY | Autominer Speed ({0}) is active for another {1}m!": "狂熱 | 自動礦工速度 ({0})還將持續 {1} 分 ！",
+  "FRENZY | Autominer Speed ({0}) is active for another {1}m {2}s!": "狂熱 | 自動礦工速度 ({0})還將持續 {1} 分 {2} 秒！",
+  "Gang Event | Gang Mine Blocks Broken ends in {0}s!": "幫派活動 | 幫派礦場方塊挖掘將於 {0} 秒後結束！",
+  "FRENZY | Key Boost (x{0}) will start in {1}m!": "狂熱 | 鑰匙加成 (x{0})將於 {1} 分鐘後開始！",
+  "Gang Event | Gang Mine Blocks Broken ends in now!": "幫派活動 | 幫派礦場方塊挖掘現在結束！",
+  "FRENZY | Autominer Speed ({0}) is active for another {1}s!": "狂熱 | 自動礦工速度 ({0})還將持續 {1} 秒！",
+  "FRENZY | Token Boost ({0}) will start in {1}m {2}s!": "狂熱 | 代幣加成 ({0})將於 {1} 分 {2} 秒後開始！",
+  "FRENZY | Token Boost ({0}) will start in {1}m!": "狂熱 | 代幣加成 ({0})將於 {1} 分鐘後開始！"
 }
