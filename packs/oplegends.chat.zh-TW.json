@@ -1090,5 +1090,11 @@
   "\n(!) {0:player} is flexing their {1} Unstable Symbol Style: Retro Glow. Click here to see it!\n": "\n(!) {0} 正在展示{1} 不穩定符號樣式：復古光暈。點擊此處查看！\n",
   "\n(!) {0:player} is flexing their Legendary Pickaxe Skin: Lightning Conductor. Click here to see it!\n": "\n(!) {0} 正在展示傳說鎬子造型：雷電導體。點擊此處查看！\n",
   "\n(!) {0:player} is flexing their {1} Collector's Unstable Special Nickname: ZG{2}exe. Click here to see it!\n": "\n(!) {0} 正在展示{1} 收藏家不穩定特殊暱稱：ZG{2}exe。點擊此處查看！\n",
-  "\n(!) {0:player} is flexing their {1} Collector's Realm Top Trophy: PennyPinchers. Click here to see it!\n": "\n(!) {0} 正在展示{1} 收藏家領域排行榜獎盃：PennyPinchers。點擊此處查看！\n"
+  "\n(!) {0:player} is flexing their {1} Collector's Realm Top Trophy: PennyPinchers. Click here to see it!\n": "\n(!) {0} 正在展示{1} 收藏家領域排行榜獎盃：PennyPinchers。點擊此處查看！\n",
+  "[AUCTION] You have {0} unclaimed auctions!": "[拍賣] 你有 {0} 筆尚未領取的拍賣！",
+  "(!) WOW! {2:player} opened their Guard Lootbox and won T{0} Pickaxe Core Box Crate and {1} other amazing rewards! [HOVER]": "(!) 哇！ {2} 開啟守衛戰利品箱，獲得 T{0} 鎬子核心箱寶箱 及其他 {1} 項驚人獎勵！[懸停查看]",
+  "(!) WOW! {1:player} opened their Guard Lootbox and won Mine Artifact Box (Right Click!) and {0} other amazing rewards! [HOVER]": "(!) 哇！ {1} 開啟守衛戰利品箱，獲得 礦場遺物箱（按右鍵！） 及其他 {0} 項驚人獎勵！[懸停查看]",
+  "\n(!) Connecting you to Gens...\n Please wait while you are being transferred.\n": "\n(!) 正在連線至 Gens…\n 轉移中，請稍候。\n",
+  "ℹ You have unclaimed mail! Click here to open it.": "ℹ 你有尚未領取的郵件！點擊此處開啟。",
+  "\nA NEW QUEST IS AVAILABLE!\nYou can now begin the Getting Started quest! Go talk to Villager Sam at {0} to begin.\n": "\n有新任務可以接取！\n你現在可以開始「初入世界」任務！前往 {0} 與村民 Sam 交談以開始。\n"
 }
