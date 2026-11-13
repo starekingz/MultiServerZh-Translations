@@ -393,5 +393,11 @@
   "[NPC] Farmer Sandy\nRIGHT CLICK": "[NPC] 農夫 Sandy\n按右鍵",
   "Ore Selection\n(Click me!)": "選擇礦石\n（點擊我！）",
   "★ TOP MINER OF THE DAY ★\n.Champion. ~Abuuu\n{0} clicks": "★ 今日最佳礦工 ★\n.Champion. ~Abuuu\n{0} 次點擊",
-  "Lss_sx\n✦ {0}  •  {1} {2}M/hr": "Lss_sx\n✦ {0}  •  {1} {2}M／小時"
+  "Lss_sx\n✦ {0}  •  {1} {2}M/hr": "Lss_sx\n✦ {0}  •  {1} {2}M／小時",
+  "Reach the block goal to summon a giant piñata!\nHit it together to pop it for rewards,\nand the top {0} damagers win the biggest prizes.\n\nBlocks: {1}K/{2}M": "達成方塊目標，召喚巨型皮納塔！\n一起攻擊它，打破後即可獲得獎勵，\n傷害排名前 {0} 名的玩家可獲得最豐厚的獎品。\n\n方塊：{1}K/{2}M",
+  "⭐ Bandit Lootbox ⭐\nWin {0} rewards per lootbox!": "⭐ 盜匪戰利品箱 ⭐\n每箱可獲得 {0} 項獎勵！",
+  "⚔ Lonely Creeper - {0}❤ ⚔\n\nDrops {1} lootbags on death\n                         \n#{2}: \n#{3}: \n#{4}: \n                         ": "⚔ 孤獨苦力怕 - {0}❤ ⚔\n\n死亡時掉落 {1} 個戰利品袋\n                         \n#{2}: \n#{3}: \n#{4}: \n                         ",
+  "Event Crate\n\nActive Buff: {0} Credits per Milestone Boost\nTime Left: {1} hour and {2} minutes": "活動寶箱\n\n目前增益：每個里程碑獲得 {0} 點數加成\n剩餘時間：{1} 小時 {2} 分鐘",
+  "Eldritch Warden - {0}❤": "遠古監守者 - {0}❤",
+  "⚔ Eldritch Warden - {0}❤ ⚔\n\nDrops {1} lootbags on death\n                         \n#{2}: \n#{3}: \n#{4}: \n#{5}: \n#{6}: \n#{7}: \n                         ": "⚔ 遠古監守者 - {0}❤ ⚔\n\n死亡時掉落 {1} 個戰利品袋\n                         \n#{2}: \n#{3}: \n#{4}: \n#{5}: \n#{6}: \n#{7}: \n                         "
 }
