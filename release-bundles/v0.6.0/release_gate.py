@@ -48,8 +48,13 @@ def test():
         assert 'Passed 55 universal release checks' in result;print(mc,result.strip(),flush=True)
         dest=OUT/'legacy-classes'/mc;dest.mkdir(parents=True,exist_ok=True)
         call(['javac','-proc:none','-cp',cp(*deps),'-d',str(dest),str(OUT/'legacy'/mc/'ModRelease.java')])
+def find_release():
+    # REST's by-tag endpoint excludes drafts; the authenticated collection includes them.
+    found=[r for r in json.loads(gh('api',f'repos/{REPO}/releases?per_page=30')) if r['tag_name']=='v0.6.0']
+    assert len(found)<=1
+    return found[0] if found else None
 def release_response():
-    r=json.loads(gh('api',f'repos/{REPO}/releases/tags/v0.6.0'));assets={a['name']:a for a in r['assets']}
+    r=find_release();assert r is not None;assets={a['name']:a for a in r['assets']}
     expected={a['name']:a for a in M['assets']};expected['SHA256SUMS.txt']={'sha256':digest(OUT/'SHA256SUMS.txt')}
     assert set(assets)==set(expected)
     for name,a in expected.items():assert assets[name]['digest']=='sha256:'+a['sha256'] and assets[name]['size']==(OUT/name).stat().st_size,name
@@ -64,7 +69,18 @@ def probe(r):
 command=sys.argv[1]
 if command=='prepare':prepare()
 elif command=='test':test()
-elif command=='upload':call(['gh','release','upload','v0.6.0','--repo',REPO]+[str(OUT/a['name']) for a in M['assets']]+[str(OUT/'SHA256SUMS.txt')])
+elif command=='ensure-draft':
+    r=find_release()
+    if r is None:call(['gh','release','create','v0.6.0','--repo',REPO,'--target',REF,'--draft','--title','MultiServerZh 0.6.0 · 七版本整合與自動更新修正','--notes-file',str(OUT/'release-notes.md')])
+    else:
+        assert r['draft'] and r['target_commitish'] in {REF,M.get('resume_draft_target')},'Refusing to modify an unrelated or published release'
+        assert {a['name'] for a in r['assets']} <= {a['name'] for a in M['assets']}|{'SHA256SUMS.txt'}
+        call(['gh','release','edit','v0.6.0','--repo',REPO,'--target',REF,'--notes-file',str(OUT/'release-notes.md')])
+elif command=='upload':
+    r=find_release();assert r and r['draft'] and r['target_commitish']==REF
+    current={a['name']:a for a in r['assets']};items=M['assets']+[{'name':'SHA256SUMS.txt','sha256':digest(OUT/'SHA256SUMS.txt')}]
+    changed=[str(OUT/a['name']) for a in items if current.get(a['name'],{}).get('digest')!='sha256:'+a['sha256']]
+    if changed:call(['gh','release','upload','v0.6.0','--repo',REPO,'--clobber']+changed)
 elif command=='verify-draft':
     r=release_response();assert r['draft'];probe(r)
 elif command=='verify-public':

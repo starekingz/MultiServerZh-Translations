@@ -38,13 +38,13 @@
     },
     {
       "name": "multiserverzh-0.6.0-multiversion-source.zip",
-      "size": 1513996,
-      "sha256": "99a603dfdc8f528fbf34f5110a76dc6066600e892e46d67ad26edb3b347d62ca"
+      "size": 1514258,
+      "sha256": "8fb0bd191abdbdec0dcac46008e673131d12841c4c949e7be7bddc77e0e44526"
     },
     {
       "name": "legacy-updater-sources.zip",
       "size": 33635,
-      "sha256": "57f56ff059332bed87c7cc5d05111f2615d235e295cc742ca361a43dca18c076"
+      "sha256": "113b6a4ddf9f0e6df1ebc95c74913c40fdf91ab527bc133647c5272ee32c88f2"
     }
   ],
   "assets": [
@@ -90,8 +90,8 @@
     },
     {
       "name": "multiserverzh-0.6.0-multiversion-source.zip",
-      "size": 1513996,
-      "sha256": "99a603dfdc8f528fbf34f5110a76dc6066600e892e46d67ad26edb3b347d62ca"
+      "size": 1514258,
+      "sha256": "8fb0bd191abdbdec0dcac46008e673131d12841c4c949e7be7bddc77e0e44526"
     },
     {
       "name": "multiserverzh-0.6.0-all-versions.zip",
@@ -127,5 +127,6 @@
       "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.19.2/fabric-loader-0.19.2.jar",
       "sha256": "1b91025ac6b5253a49aabb22f658b5eed9fbba6dc88eb0e4a9364c7b2d1d1865"
     }
-  ]
+  ],
+  "resume_draft_target": "f7b3005c403465126f4781fe880f5cdb1ccb593a"
 }

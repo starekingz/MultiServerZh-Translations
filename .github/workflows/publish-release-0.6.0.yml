@@ -35,11 +35,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if gh release view v0.6.0 --repo "$REPO" >/dev/null 2>&1; then
-            echo 'Release already exists; refusing to overwrite it.'
-            exit 1
-          fi
-          gh release create v0.6.0 --repo "$REPO" --target "$REF" --draft --title 'MultiServerZh 0.6.0 · 七版本整合與自動更新修正' --notes-file release-out/release-notes.md
+          python release-out/release_gate.py ensure-draft
           python release-out/release_gate.py upload
       - name: Verify GitHub asset hashes and old updater migration before publication
         run: python release-out/release_gate.py verify-draft
