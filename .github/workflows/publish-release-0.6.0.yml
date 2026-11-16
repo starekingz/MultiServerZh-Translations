@@ -1,0 +1,49 @@
+name: Publish MultiServerZh v0.6.0
+on:
+  push:
+    paths:
+      - release-bundles/v0.6.0/manifest.json
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: release-v0.6.0
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+      REF: ${{ github.sha }}
+    steps:
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+      - name: Fetch reviewed release inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir release-out
+          gh api -H 'Accept: application/vnd.github.raw+json' "repos/$REPO/contents/release-bundles/v0.6.0/manifest.json?ref=$REF" > release-out/manifest.json
+          gh api -H 'Accept: application/vnd.github.raw+json' "repos/$REPO/contents/release-bundles/v0.6.0/release_gate.py?ref=$REF" > release-out/release_gate.py
+          python release-out/release_gate.py prepare
+      - name: Verify updater for all seven real JARs
+        run: python release-out/release_gate.py test
+      - name: Create draft and upload verified artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          if gh release view v0.6.0 --repo "$REPO" >/dev/null 2>&1; then
+            echo 'Release already exists; refusing to overwrite it.'
+            exit 1
+          fi
+          gh release create v0.6.0 --repo "$REPO" --target "$REF" --draft --title 'MultiServerZh 0.6.0 · 七版本整合與自動更新修正' --notes-file release-out/release-notes.md
+          python release-out/release_gate.py upload
+      - name: Verify GitHub asset hashes and old updater migration before publication
+        run: python release-out/release_gate.py verify-draft
+      - name: Publish stable latest release
+        run: gh release edit v0.6.0 --repo "$REPO" --draft=false --latest
+      - name: Verify published response for every platform
+        run: python release-out/release_gate.py verify-public

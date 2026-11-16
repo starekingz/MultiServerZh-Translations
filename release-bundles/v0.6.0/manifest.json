@@ -1,0 +1,131 @@
+{
+  "version": "0.6.0",
+  "staged": [
+    {
+      "name": "multiserverzh-0.6.0-mc1.20.4.jar",
+      "size": 375314,
+      "sha256": "bc18a4829cecff84f9202f4c47a94b72e382f7d63cb35e3657cadfc5ccfb7db3"
+    },
+    {
+      "name": "multiserverzh-0.6.0-mc1.21.11.jar",
+      "size": 374393,
+      "sha256": "79a04cd631698dfd41b827d53bd143b81f029d6d32e629593a120fd8f0122063"
+    },
+    {
+      "name": "multiserverzh-0.6.0-mc26.1.jar",
+      "size": 375504,
+      "sha256": "93868f36560b4070beed2e5d66417f23bae1414654f447abbac97df9ef161edc"
+    },
+    {
+      "name": "multiserverzh-0.6.0-mc26.1.1.jar",
+      "size": 375505,
+      "sha256": "d65c4672dcf69ed03009acb72b565a4ef1763a09be5e44283109e6e6c7ecd2af"
+    },
+    {
+      "name": "multiserverzh-0.6.0-mc26.1.2.jar",
+      "size": 375505,
+      "sha256": "9fcfb1e985237e8c04ac05995be6496eda76065b88120bbb5f42b99e2f5bec3d"
+    },
+    {
+      "name": "multiserverzh-0.6.0-mc26.2.jar",
+      "size": 375811,
+      "sha256": "9438a01e9b8be4078c1bba2b1928c1d5069733ad78ba6577e9f314427bed7407"
+    },
+    {
+      "name": "multiserverzh-0.6.0-mc26.3.jar",
+      "size": 375818,
+      "sha256": "ac1df94004e62c6c2efdc1ed9346255bc9ad09e5333b0b017fa0ab1ca1b52f16"
+    },
+    {
+      "name": "multiserverzh-0.6.0-multiversion-source.zip",
+      "size": 1513996,
+      "sha256": "99a603dfdc8f528fbf34f5110a76dc6066600e892e46d67ad26edb3b347d62ca"
+    },
+    {
+      "name": "legacy-updater-sources.zip",
+      "size": 33635,
+      "sha256": "57f56ff059332bed87c7cc5d05111f2615d235e295cc742ca361a43dca18c076"
+    }
+  ],
+  "assets": [
+    {
+      "name": "multiserverzh-0.6.0-mc1.20.4.jar",
+      "size": 375314,
+      "sha256": "bc18a4829cecff84f9202f4c47a94b72e382f7d63cb35e3657cadfc5ccfb7db3"
+    },
+    {
+      "name": "multiserverzh-0.6.0-mc1.21.11.jar",
+      "size": 374393,
+      "sha256": "79a04cd631698dfd41b827d53bd143b81f029d6d32e629593a120fd8f0122063"
+    },
+    {
+      "name": "multiserverzh-0.6.0-mc26.1.jar",
+      "size": 375504,
+      "sha256": "93868f36560b4070beed2e5d66417f23bae1414654f447abbac97df9ef161edc"
+    },
+    {
+      "name": "multiserverzh-0.6.0-mc26.1.1.jar",
+      "size": 375505,
+      "sha256": "d65c4672dcf69ed03009acb72b565a4ef1763a09be5e44283109e6e6c7ecd2af"
+    },
+    {
+      "name": "multiserverzh-0.6.0-mc26.1.2.jar",
+      "size": 375505,
+      "sha256": "9fcfb1e985237e8c04ac05995be6496eda76065b88120bbb5f42b99e2f5bec3d"
+    },
+    {
+      "name": "multiserverzh-0.6.0-mc26.2.jar",
+      "size": 375811,
+      "sha256": "9438a01e9b8be4078c1bba2b1928c1d5069733ad78ba6577e9f314427bed7407"
+    },
+    {
+      "name": "multiserverzh-0.6.0-mc26.3.jar",
+      "size": 375818,
+      "sha256": "ac1df94004e62c6c2efdc1ed9346255bc9ad09e5333b0b017fa0ab1ca1b52f16"
+    },
+    {
+      "name": "multiserverzh-0.6.0.jar",
+      "size": 374393,
+      "sha256": "79a04cd631698dfd41b827d53bd143b81f029d6d32e629593a120fd8f0122063"
+    },
+    {
+      "name": "multiserverzh-0.6.0-multiversion-source.zip",
+      "size": 1513996,
+      "sha256": "99a603dfdc8f528fbf34f5110a76dc6066600e892e46d67ad26edb3b347d62ca"
+    },
+    {
+      "name": "multiserverzh-0.6.0-all-versions.zip",
+      "size": 2634947,
+      "sha256": "a32680a0402202d533d6bfd66568e308b82d900c849b47eb179c75506d1b6651"
+    },
+    {
+      "name": "INSTALL.md",
+      "size": 3191,
+      "sha256": "0ae2e0e9821e765ec2b56cecf920282a16fc457926c88b03e945c963b626ca04"
+    },
+    {
+      "name": "validation.json",
+      "size": 2624,
+      "sha256": "c3c3f615599f21b79d32cb41db555988323b0dbece8d69218f73483f53d895b9"
+    }
+  ],
+  "text_assets": {
+    "INSTALL.md": "# MultiServerZh 0.6.0\n\n七個支援版本統一為 0.6.0。各版使用獨立 JAR，只安裝與遊戲相同版本的一份。快照與 RC 不在此次範圍。\n\n| Minecraft | Java 最低版本 | Fabric Loader 最低版本 | 已驗證 Fabric API |\n| --- | --- | --- | --- |\n| 1.20.4 | 17 | 0.19.2 | 0.97.3+1.20.4 |\n| 1.21.11 | 21 | 0.19.2 | 0.141.6+1.21.11 |\n| 26.1 | 25 | 0.19.3 | 0.145.1+26.1 |\n| 26.1.1 | 25 | 0.19.3 | 0.145.4+26.1.1 |\n| 26.1.2 | 25 | 0.19.3 | 0.155.3+26.1.2 |\n| 26.2 | 25 | 0.19.3 | 0.161.0+26.2 |\n| 26.3 | 25 | 0.20.1 | 0.166.2+26.3 |\n\n## 安裝與更新\n\n下載 multiserverzh-0.6.0-mc<遊戲版本>.jar，移除舊的 MultiServerZh JAR，將新版放入 mods 後重啟。設定與手動詞庫沿用。F8 擷取、F9 設定與 /mszh import 保留。\n\nmultiserverzh-0.6.0.jar 是 **1.21.11 舊更新器的相容別名**，與 -mc1.21.11.jar 位元組相同；不要同時安裝兩份，也不要用於其他版本。來源 ZIP 和全版本 ZIP 不可直接放入 mods。\n\n0.6.0 更新器讀取實際 Minecraft 版本，從最近 30 個 GitHub Release 選取支援該遊戲版本、版本號最高的正式版。略過草稿、預覽版及沒有對應 JAR 的版本。各平台只接受完全相符的 -mc<版本>.jar，1.21.11 保留舊檔名相容。仍驗證官方 URL、大小、SHA-256，以及 JAR 的模組 ID、版本、Minecraft／Java／Loader 相容性。\n\n七版附件會放在同一個正式 Release，讓之前已有自動更新功能的各平台版本，也能透過原有檔名找到升級。使用 /mszh modupdate 可略過 15 分鐘成功結果快取，立即重查。下載後正常關閉遊戲，稍候數秒再啟動；安裝器等遊戲行程結束才替換 JAR，並保留備份。\n\n此版包含 26.3 lore／翻譯面板／F8 懸停入口修正，以及 26.2 Loader 0.19.3 相容性修正。\n\n## 建置與驗證\n\n需要 Python 3、JDK 25，1.20.4 測試另使用 JDK 17。tools/modern_matrix.py 的 JDK 路徑可按環境調整。targets.json 固定遊戲描述檔 URL／SHA-1、Fabric API 版本／SHA-1 與 Loader。\n\n從專案根目錄執行：\n\n```powershell\npython tools/guarded_matrix_dependencies.py 1.21.11 26.1 26.1.1 26.1.2 26.2 26.3\npython tools/prepare_legacy_matrix.py\npython tools/modern_matrix.py build\npython tools/run_release_checks.py\npython tools/modern_matrix.py audit\npython tools/audit_tooltip_routes.py --version 0.6.0\npython tools/package_matrix.py\n```\n\n映射快取需先透過根專案／1.20.4 平台的 Gradle Loom 準備；腳本沿用既有、已驗證的 Minecraft／Fabric API 快取。依賴下載器僅允許 Mojang／Fabric 官方 HTTPS 來源，保留環境指定的本機代理。產物不含 Minecraft 或 Fabric API 的程式碼。\n\n每版執行核心、匯出／更新、平台與七平台 Release 選取測試。Fabric Knot 實際轉換八個注入目標。26.3 額外檢查轉換後物品懸停與面板／F8 的呼叫路徑。測試不啟動遊戲視窗，尚未登入伺服器進行遊戲內驗收。\n\n完整來源是 multiserverzh-0.6.0-multiversion-source.zip，GitHub 自動產生的 Source code 壓縮檔只對應詞庫／發布倉庫。AGPL-3.0-only，包含 WynnChaYuan UI 來源與授權說明。\n",
+    "validation.json": "{\n  \"version\": \"0.6.0\",\n  \"in_game_server_tested\": false,\n  \"targets\": [\n    {\n      \"minecraft\": \"1.20.4\",\n      \"java\": 17,\n      \"loader\": \"0.19.2\",\n      \"fabric_api\": \"0.97.3+1.20.4\",\n      \"jar\": \"multiserverzh-0.6.0-mc1.20.4.jar\",\n      \"sha256\": \"bc18a4829cecff84f9202f4c47a94b72e382f7d63cb35e3657cadfc5ccfb7db3\",\n      \"local_fabric_targets_verified\": 8\n    },\n    {\n      \"minecraft\": \"1.21.11\",\n      \"java\": 21,\n      \"loader\": \"0.19.2\",\n      \"fabric_api\": \"0.141.6+1.21.11\",\n      \"jar\": \"multiserverzh-0.6.0-mc1.21.11.jar\",\n      \"sha256\": \"79a04cd631698dfd41b827d53bd143b81f029d6d32e629593a120fd8f0122063\",\n      \"local_fabric_targets_verified\": 8\n    },\n    {\n      \"minecraft\": \"26.1\",\n      \"java\": 25,\n      \"loader\": \"0.19.3\",\n      \"fabric_api\": \"0.145.1+26.1\",\n      \"jar\": \"multiserverzh-0.6.0-mc26.1.jar\",\n      \"sha256\": \"93868f36560b4070beed2e5d66417f23bae1414654f447abbac97df9ef161edc\",\n      \"local_fabric_targets_verified\": 8\n    },\n    {\n      \"minecraft\": \"26.1.1\",\n      \"java\": 25,\n      \"loader\": \"0.19.3\",\n      \"fabric_api\": \"0.145.4+26.1.1\",\n      \"jar\": \"multiserverzh-0.6.0-mc26.1.1.jar\",\n      \"sha256\": \"d65c4672dcf69ed03009acb72b565a4ef1763a09be5e44283109e6e6c7ecd2af\",\n      \"local_fabric_targets_verified\": 8\n    },\n    {\n      \"minecraft\": \"26.1.2\",\n      \"java\": 25,\n      \"loader\": \"0.19.3\",\n      \"fabric_api\": \"0.155.3+26.1.2\",\n      \"jar\": \"multiserverzh-0.6.0-mc26.1.2.jar\",\n      \"sha256\": \"9fcfb1e985237e8c04ac05995be6496eda76065b88120bbb5f42b99e2f5bec3d\",\n      \"local_fabric_targets_verified\": 8\n    },\n    {\n      \"minecraft\": \"26.2\",\n      \"java\": 25,\n      \"loader\": \"0.19.3\",\n      \"fabric_api\": \"0.161.0+26.2\",\n      \"jar\": \"multiserverzh-0.6.0-mc26.2.jar\",\n      \"sha256\": \"9438a01e9b8be4078c1bba2b1928c1d5069733ad78ba6577e9f314427bed7407\",\n      \"local_fabric_targets_verified\": 8\n    },\n    {\n      \"minecraft\": \"26.3\",\n      \"java\": 25,\n      \"loader\": \"0.20.1\",\n      \"fabric_api\": \"0.166.2+26.3\",\n      \"jar\": \"multiserverzh-0.6.0-mc26.3.jar\",\n      \"sha256\": \"ac1df94004e62c6c2efdc1ed9346255bc9ad09e5333b0b017fa0ab1ca1b52f16\",\n      \"local_fabric_targets_verified\": 8\n    }\n  ],\n  \"release_gate\": {\n    \"enforced_by\": \"GitHub Actions before public release\",\n    \"universal_release_checks_per_platform\": 55,\n    \"old_updater_migration_platforms\": 7,\n    \"remote_asset_hash_verification\": true,\n    \"published_release_response_verification\": true\n  },\n  \"local_regression_limitation\": \"Full local reruns were interrupted by automatic review of unexpected Visual Studio telemetry; current updater validation is enforced in isolated GitHub Actions instead.\"\n}\n",
+    "UniversalReleaseTest.java": "package dev.multiserverzh;\nimport com.google.gson.*;\nimport java.util.*;\n/** Seven-platform releases, legacy migration and platform-specific latest selection. */\npublic final class UniversalReleaseTest {\n    private static int checks;\n    private static final List<String> VERSIONS=List.of(\"1.20.4\",\"1.21.11\",\"26.1\",\"26.1.1\",\"26.1.2\",\"26.2\",\"26.3\");\n    private static void check(boolean ok,String message){checks++;if(!ok)throw new AssertionError(message);}\n    private static JsonObject release(String version,List<String> platforms,boolean alias){\n        JsonObject r=new JsonObject();r.addProperty(\"tag_name\",\"v\"+version);r.addProperty(\"draft\",false);r.addProperty(\"prerelease\",false);\n        JsonArray assets=new JsonArray();\n        for(String platform:platforms)assets.add(asset(version,ModRelease.assetName(version,platform)));\n        if(alias)assets.add(asset(version,\"multiserverzh-\"+version+\".jar\"));\n        r.add(\"assets\",assets);return r;\n    }\n    private static JsonObject asset(String version,String name){\n        JsonObject a=new JsonObject();a.addProperty(\"name\",name);a.addProperty(\"size\",1234);a.addProperty(\"digest\",\"sha256:\"+\"a\".repeat(64));\n        a.addProperty(\"browser_download_url\",\"https://github.com/\"+ModRelease.REPO+\"/releases/download/v\"+version+\"/\"+name);return a;\n    }\n    private static void reject(String json,String platform){\n        try{ModRelease.parseLatest(json,platform);throw new AssertionError(\"Invalid release accepted for \"+platform);}catch(java.io.IOException expected){checks++;}\n    }\n    public static void main(String[] args)throws Exception{\n        JsonObject all=release(\"0.6.0\",VERSIONS,true);\n        for(String platform:VERSIONS){\n            var result=ModRelease.parse(all.toString(),platform);\n            check(result.url().getPath().endsWith(\"-mc\"+platform+\".jar\"),\"exact platform wins over alias\");\n            check(ModRelease.newer(result.version(),\"0.5.46\"),\"upgrade from local hotfix\");\n            JsonArray releases=new JsonArray();releases.add(release(\"0.7.0\",List.of(\"26.3\"),false));releases.add(all);\n            JsonObject draft=release(\"9.0.0\",VERSIONS,true);draft.addProperty(\"draft\",true);releases.add(draft);\n            JsonObject preview=release(\"8.0.0\",VERSIONS,true);preview.addProperty(\"prerelease\",true);releases.add(preview);\n            check(ModRelease.parseLatest(releases.toString(),platform).version().equals(platform.equals(\"26.3\")?\"0.7.0\":\"0.6.0\"),\"latest supported release skips unrelated/draft/prerelease\");\n            JsonArray unordered=new JsonArray();unordered.add(all);unordered.add(release(\"0.5.42\",VERSIONS,true));\n            check(ModRelease.parseLatest(unordered.toString(),platform).version().equals(\"0.6.0\"),\"numeric version beats publication order\");\n            JsonObject broken=release(\"0.6.1\",List.of(platform),false);broken.getAsJsonArray(\"assets\").get(0).getAsJsonObject().addProperty(\"digest\",\"md5:abcd\");\n            reject(\"[\"+broken+\"]\",platform);\n            JsonObject wrong=release(\"0.6.1\",List.of(platform),false);wrong.getAsJsonArray(\"assets\").get(0).getAsJsonObject().addProperty(\"browser_download_url\",\"https://evil.example/mod.jar\");\n            reject(\"[\"+wrong+\"]\",platform);\n        }\n        JsonObject legacy=release(\"0.6.0\",List.of(),true);\n        check(ModRelease.parse(legacy.toString(),\"1.21.11\").url().getPath().endsWith(\"/multiserverzh-0.6.0.jar\"),\"legacy 1.21.11 alias\");\n        for(String platform:VERSIONS)if(!platform.equals(\"1.21.11\"))reject(\"[\"+legacy+\"]\",platform);\n        check(ModRelease.newer(\"0.6\",\"0.5.46\"),\"two-component version accepted\");\n        check(!ModRelease.newer(\"0.6.0\",\"0.6\"),\"equivalent zero patch\");\n        check(ModRelease.newer(\"0.6.1\",\"0.6\"),\"upgrade after zero patch\");\n        check(!ModRelease.newer(\"0.6-beta\",\"0.5.46\"),\"no prerelease\");\n        reject(\"[]\",\"26.2\");reject(\"[\"+all+\"]\",\"26.2-rc1\");\n        System.out.println(\"Passed \"+checks+\" universal release checks across seven Minecraft versions\");\n    }\n}\n",
+    "ReleaseProbe.java": "package dev.multiserverzh;\nimport java.nio.file.*;\nimport java.util.*;\n/** Probe a real GitHub release response using either old or current updater code. */\npublic final class ReleaseProbe {\n    public static void main(String[] args)throws Exception {\n        String json=Files.readString(Path.of(args[0])),mc=args[1],mode=args[2];\n        ModRelease.Release selected;\n        if(mode.equals(\"legacy\"))selected=ModRelease.parse(json);\n        else selected=ModRelease.parseLatest(\"[\"+json+\"]\",mc);\n        if(!selected.version().equals(\"0.6.0\"))throw new AssertionError(\"Wrong release \"+selected.version());\n        String suffix=mode.equals(\"legacy\")&&mc.equals(\"1.21.11\")?\"/multiserverzh-0.6.0.jar\":\"-mc\"+mc+\".jar\";\n        if(!selected.url().getPath().endsWith(suffix))throw new AssertionError(\"Wrong platform asset: \"+selected.url());\n        System.out.println(\"RELEASE_PROBE_OK \"+mode+\" \"+mc+\" \"+selected.url());\n    }\n}\n",
+    "release-notes.md": "MultiServerZh 0.6.0（0.6 系列）\n\n整合 Minecraft 1.20.4、1.21.11、26.1、26.1.1、26.1.2、26.2、26.3，所有 JAR 統一為 0.6.0。\n\n- 更新器依實際 Minecraft 版本選取對應 JAR，從最近 30 個 Release 選出支援該平台的最新正式版；跳過草稿、預覽與不支援該平台的發布。\n- 同一 Release 提供七版附件。multiserverzh-0.6.0.jar 僅是 1.21.11 的舊更新器別名，與 -mc1.21.11.jar 完全相同；其他版本請使用明確標示遊戲版本的檔案。\n- 包含 26.3 lore／物品翻譯面板／F8 懸停入口修正，以及 26.2 Fabric Loader 0.19.3 相容性修正。\n- 1.20.4 需要 Java 17／Loader 0.19.2；1.21.11 需要 Java 21／Loader 0.19.2；26.1～26.2 需要 Java 25／Loader 0.19.3；26.3 需要 Java 25／Loader 0.20.1。各版另需相符的 Fabric API，詳見 INSTALL.md。\n\n安裝：只放入一份對應遊戲版本的 JAR，移除舊版並重啟；詞庫與設定保留。已有更新功能可使用 /mszh modupdate 重查；下載後正常關閉遊戲，稍候數秒再啟動，才會套用更新。\n\n驗證：七版各八個 Fabric 注入目標；GitHub Actions 使用每份真實 JAR 的更新器執行七平台選取檢查，並以舊更新器邏輯驗證正式 GitHub 附件回應與舊檔名升級。附件包含完整來源與 SHA256SUMS.txt。尚未登入伺服器實測。本機完整重跑因自動審核偵測到額外遙測而中止，更新器驗證改由 GitHub Actions 執行並在公開發布前強制通過。\n\nAGPL-3.0-only，保留 WynnChaYuan UI 來源與授權。完整來源為 multiserverzh-0.6.0-multiversion-source.zip；GitHub 自動產生的 Source code 僅對應詞庫／發布倉庫。\n"
+  },
+  "ci_dependencies": [
+    {
+      "name": "gson.jar",
+      "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar",
+      "sha256": "dd0ce1b55a3ed2080cb70f9c655850cda86c206862310009dcb5e5c95265a5e0"
+    },
+    {
+      "name": "fabric-loader.jar",
+      "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.19.2/fabric-loader-0.19.2.jar",
+      "sha256": "1b91025ac6b5253a49aabb22f658b5eed9fbba6dc88eb0e4a9364c7b2d1d1865"
+    }
+  ]
+}
