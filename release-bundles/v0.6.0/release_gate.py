@@ -60,8 +60,15 @@ def release_response():
     for name,a in expected.items():assert assets[name]['digest']=='sha256:'+a['sha256'] and assets[name]['size']==(OUT/name).stat().st_size,name
     return r
 def probe(r):
-    # GitHub draft responses are treated as public only within this pre-publication test fixture.
-    r=dict(r);r['draft']=False;p=OUT/'release-response.json';p.write_text(json.dumps(r))
+    # Drafts have untagged-* URLs. Predict their final URLs only in the draft fixture;
+    # after publication the unchanged, real GitHub URLs must pass the same probes.
+    draft=r['draft'];r=json.loads(json.dumps(r));r['draft']=False
+    if draft:
+        prefix=f'https://github.com/{REPO}/releases/download/'
+        for a in r['assets']:
+            assert a['browser_download_url'].startswith(prefix) and a['browser_download_url'].endswith('/'+a['name'])
+            a['browser_download_url']=prefix+'v0.6.0/'+a['name']
+    p=OUT/'release-response.json';p.write_text(json.dumps(r))
     deps=[OUT/'gson.jar',OUT/'fabric-loader.jar']
     for mc in PLATFORMS:
         for mode,classes in [('current',OUT/'classes'/mc),('legacy',OUT/'legacy-classes'/mc)]:

@@ -38,13 +38,13 @@
     },
     {
       "name": "multiserverzh-0.6.0-multiversion-source.zip",
-      "size": 1514258,
-      "sha256": "8fb0bd191abdbdec0dcac46008e673131d12841c4c949e7be7bddc77e0e44526"
+      "size": 1514455,
+      "sha256": "56f63f591a32a4c4824cd0bd4c167f44a6a48443868c24d8dbbb94d380b33967"
     },
     {
       "name": "legacy-updater-sources.zip",
       "size": 33635,
-      "sha256": "113b6a4ddf9f0e6df1ebc95c74913c40fdf91ab527bc133647c5272ee32c88f2"
+      "sha256": "0ae1c50a7678192f76244866b000b913ce5a1b2f03ecceec6ff788b4d1e2f3fa"
     }
   ],
   "assets": [
@@ -90,8 +90,8 @@
     },
     {
       "name": "multiserverzh-0.6.0-multiversion-source.zip",
-      "size": 1514258,
-      "sha256": "8fb0bd191abdbdec0dcac46008e673131d12841c4c949e7be7bddc77e0e44526"
+      "size": 1514455,
+      "sha256": "56f63f591a32a4c4824cd0bd4c167f44a6a48443868c24d8dbbb94d380b33967"
     },
     {
       "name": "multiserverzh-0.6.0-all-versions.zip",
@@ -128,5 +128,5 @@
       "sha256": "1b91025ac6b5253a49aabb22f658b5eed9fbba6dc88eb0e4a9364c7b2d1d1865"
     }
   ],
-  "resume_draft_target": "f7b3005c403465126f4781fe880f5cdb1ccb593a"
+  "resume_draft_target": "113e6840637ba13c391a0f97784f4d0fd1d94a62"
 }
