@@ -2,6 +2,7 @@
   "schema_version": 1,
   "packs": [
     "oplegends",
-    "pikanetwork"
+    "pikanetwork",
+    "manacube"
   ]
 }
