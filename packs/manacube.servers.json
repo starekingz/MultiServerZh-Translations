@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "server_name": "ManaCube",
+  "server_ips": [
+    "play.manacube.com"
+  ]
+}
