@@ -1,0 +1,21 @@
+{
+  "Teleported to Apollo (#{0})": "已傳送至阿波羅礦場（#{0}）",
+  "Hey! Sorry, but you can't break that block here.": "你無法在這裡破壞這個方塊。",
+  "You don't have enough mana to purchase this enchant": "你的魔力不足，無法購買此附魔。",
+  "[Olympus] Your inventory is full! Type {0}": "[奧林帕斯] 你的物品欄已滿！請輸入 {0}",
+  "You sold {0} items and earned ${1}": "你出售了 {0} 件物品，獲得 ${1}。",
+  "Apollo (#{0}) mine is resetting in {1} seconds": "阿波羅礦場（#{0}）將在 {1} 秒後重置",
+  "You received {0} Daily Crate Key(s). TYPE {1} TO USE": "你獲得了 {0} 把每日寶箱鑰匙。輸入 {1} 使用",
+  " \n㉫\n              KING BENNY IS HOSTING A GIVEAWAY\n \n           An online player will be chosen in {0}m\n              Winner will receive {1} Cubits! Good Luck\n \n ": " \n㉫\n              班尼國王正在舉辦抽獎\n \n           {0} 分鐘後將抽出一位在線玩家\n              得獎者可獲得 {1} Cubits！祝你好運\n \n ",
+  "Apollo (#{0}) mine is resetting in {1} second": "阿波羅礦場（#{0}）將在 {1} 秒後重置",
+  "The Apollo (#{0}) mine has been reset": "阿波羅礦場（#{0}）已重置",
+  "\nThe first person to unscramble {1} wins {0} Mana!\n": "\n第一位解出「{1}」字母謎題的玩家，可獲得 {0} 魔力！\n",
+  "\n{0:player} unscrambled the word {1} in {2} seconds!\n": "\n{0} 在 {2} 秒內解出了單字「{1}」！\n",
+  "[+] [ELITE] {0:player} has joined and nobody cares.": "[+] [ELITE] {0} 加入了，然而沒人在意。",
+  "䜾 {0:player} was slain by Mountain Goat": "䜾 {0} 被山羊殺死了",
+  "[Olympus] {0:player} ranked up to [{1}]": "[奧林帕斯] {0} 已升階至 [{1}]",
+  "Hey {1:player}, you have {0} reward(s) ready to claim.\nCLICK HERE TO OPEN THE CASH COW": "嗨，{1}，你有 {0} 份獎勵可以領取。\n點擊這裡開啟搖錢牛",
+  "\nThe first person to type {1} wins {0} Mana!\n": "\n第一位輸入「{1}」的玩家，可獲得 {0} 魔力！\n",
+  "\n{0:player} won in {1} seconds!\n": "\n{0} 在 {1} 秒內獲勝！\n",
+  "\n{0}ZELDA CRATE{1}\n{2}Out now at {3} crates{4}\n{5}\n{6}\n{7}": "\n{0}薩爾達寶箱{1}\n{2}現已推出，前往 {3} crates{4}\n{5}\n{6}\n{7}"
+}
