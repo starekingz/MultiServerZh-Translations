@@ -1,0 +1,16 @@
+{
+  "* OPBLOCKS // play.opblocks.com\n* Welcome to OPBlocks!!\n\n» Discord: opblocks.com/discord\n» Store: store.opblocks.com": "* OPBLOCKS // play.opblocks.com\n* 歡迎來到 OPBlocks！！\n\n» Discord: opblocks.com/discord\n» 商店：store.opblocks.com",
+  "\n                  GEM SHOP EXCLUSIVE OFFERS\n\n      You have exclusive offers waiting in your {0}\n                      Hurry before they expire!\n\n\n                              DAILY LOGIN\n\n             You haven't claimed today's daily reward!\n                        Claim now with {1}!\n": "\n                  寶石商店專屬優惠\n\n          你的 {0} 有專屬優惠等你查看\n                 快趁優惠到期前領取！\n\n\n                        每日登入\n\n               你還沒領取今天的每日獎勵！\n                    使用 {1} 立即領取！\n",
+  "Hey! Sorry, but you can't use that here.": "你無法在這裡使用這個物品。",
+  "GANG HIDEOUTS » You don't have a gang hideout!": "幫派據點 » 你目前沒有幫派據點！",
+  "You are already trying to connect to a server!": "你已經在連線至伺服器了！",
+  "[OCM] Set modeset to new": "[OCM] 已將 modeset 設為 new",
+  "Hey! Sorry, but you can't PvP here.": "你無法在這裡進行 PvP。",
+  " • Prestige {0}x (${1})\n • Rank {2}x (${3})": " • 轉生 {0} 次（${1}）\n • 升階 {2} 次（${3}）",
+  "Your personal pickaxe was missing or invalid, it has been replaced.": "你的專屬鎬子遺失或無效，系統已補發。",
+  "§{0}—————————————————————————————————\n                          Envoys\n\n           Envoys have spawned around The Warzone!\n              Collect them to gain some cool rewards!\n§{1}—————————————————————————————————": "§{0}—————————————————————————————————\n                          戰區空投\n\n                  戰區各處出現了空投！\n                    拾取即可獲得獎勵！\n§{1}—————————————————————————————————",
+  " • Rank {0}x (${1})\n • Prestige {2}x (${3})": " • 升階 {0} 次（${1}）\n • 轉生 {2} 次（${3}）",
+  "GANG HIDEOUTS » Your gang received {0} Gang Score from mining!": "幫派據點 » 你的幫派透過挖礦獲得了 {0} 點幫派分數！",
+  "Unknown command. Type \"{0}\" for help.": "未知指令。輸入「{0}」查看說明。",
+  "Please wait before sending commands!": "請稍候再輸入指令！"
+}
