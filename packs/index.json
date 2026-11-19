@@ -3,6 +3,7 @@
   "packs": [
     "oplegends",
     "pikanetwork",
-    "manacube"
+    "manacube",
+    "opblocks"
   ]
 }
