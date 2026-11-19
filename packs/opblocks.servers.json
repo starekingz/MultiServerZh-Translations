@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "server_name": "OPBlocks",
+  "server_ips": [
+    "play.opblocks.com"
+  ]
+}
